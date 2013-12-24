@@ -1,0 +1,395 @@
+<root>
+	<origin>0,0</origin>
+	<xvidew>-25,25</xvidew>
+	<yview>-22,22</yview>
+	<color tag="bgcolor">lightblue
+	</color>
+	<color tag="turbo">255,127,0
+	</color>
+	<color tag="spectrometer">0,170,170
+	</color>
+	<color tag="gauge">255,255,0
+	</color>
+	
+	<color tag="getter">94,87,94
+	</color>
+		
+	
+	<!--obama -->
+	<spectrometer>Obama
+		<translation>-24,0</translation>
+		<dimension>5,5</dimension>
+	</spectrometer>
+	<valve>V
+		<translation>-23,-3</translation>
+	</valve>
+	<connection orientation="vertical">
+		<start>V</start>
+		<end>Obama</end>
+	</connection>
+	
+	<!--bone -->
+	<valve>H
+		<translation>-18,1</translation>
+	</valve>
+	<connection orientation="horizontal">
+		<start>H</start>
+		<end>Obama</end>
+	</connection>
+
+	<valve>B
+		<translation>-14,6</translation>
+	</valve>
+	<connection orientation="vertical">
+		<start>B</start>
+		<end>Bone</end>
+	</connection>
+	
+	<valve>D
+		<translation>-5,6</translation>
+	</valve>
+	<connection>
+		<start>D</start>
+		<end offset="7,1.5">Bone</end>
+	</connection>
+	
+	<valve>C
+		<translation>-11,-3</translation>
+	</valve>
+	<connection orientation="vertical">
+		<start>C</start>
+		<end>Bone</end>
+	</connection>
+	<connection orientation="vertical">
+		<start>C</start>
+		<end>ATurbo</end>
+	</connection>
+	
+	<turbo>ATurbo
+		<translation>-13,-12</translation>
+		<dimension>5,3</dimension>
+	</turbo>
+	
+	<valve>N
+		<translation>-9,6</translation>
+	</valve>
+	<connection orientation="vertical">
+		<start>N</start>
+		<end>Bone</end>
+	</connection>
+	
+	<stage>Bone
+		<translation>-14,0.5</translation>
+		<dimension>8,3</dimension>
+	</stage>
+	<connection orientation="horizontal">
+		<start>H</start>
+		<end>Bone</end>
+	</connection>
+	
+	<valve>E
+		<translation>-5,1</translation>
+	</valve>
+	<connection orientation="horizontal">
+		<start>E</start>
+		<end>Bone</end>
+	</connection>
+	<valve>I
+		<translation>-5,-3</translation>
+	</valve>
+	<connection orientation="vertical">
+		<start>E</start>
+		<end>I</end>
+	</connection>
+	
+	
+	<!--co2 -->
+	<valve>F
+		<translation>-5,11</translation>
+	</valve>
+	<valve>A
+		<translation>2,11</translation>
+	</valve>
+	<connection orientation="vertical">
+		<start>A</start>
+		<end>D</end>
+	</connection>
+	<connection orientation="vertical">
+		<start>F</start>
+		<end>T</end>
+	</connection>
+	<stage>CO2
+		<translation>-1.85,12</translation>
+		<dimension>3,2</dimension>
+	</stage>
+	<connection>
+		<start>A</start>
+		<end>CO2</end>
+	</connection>
+	<connection>
+		<start>F</start>
+		<end>CO2</end>
+	</connection>
+	<rough_valve>G
+		<translation>-1.5,16.7</translation>
+	</rough_valve>
+	<connection orientation="vertical">
+		<start>G</start>
+		<end>CO2</end>
+	</connection>
+	
+	
+	<!--minibone -->
+	<stage>Minibone
+		<translation>-1,-12</translation>
+		<dimension>6,3</dimension>
+	</stage>
+
+	<valve>P
+		<translation>-6,-11.5</translation>
+	</valve>
+	<connection orientation="horizontal">
+		<start>P</start>
+		<end>ATurbo</end>
+	</connection>
+	<connection orientation="horizontal">
+		<start>P</start>
+		<end>Minibone</end>
+	</connection>
+
+	<valve>Q
+		<translation>6,-11.5</translation>
+	</valve>
+	<connection orientation="horizontal">
+		<start>Q</start>
+		<end>Minibone</end>
+	</connection>
+	<spectrometer>Quad
+		<translation>9,-12</translation>
+		<dimension>6,3</dimension>
+	</spectrometer>
+	<connection orientation="horizontal">
+		<start>Q</start>
+		<end>Quad</end>
+	</connection>
+	<connection>
+		<start>I</start>
+		<end>Minibone</end>
+	</connection>
+	
+	<valve>W
+		<translation>-1,-16</translation>
+	</valve>
+	<valve>X
+		<translation>-1,-20</translation>
+	</valve>
+	<valve>Y
+		<translation>3,-16</translation>
+	</valve>
+	<valve>Z
+		<translation>3,-20</translation>
+	</valve>
+	
+	<connection orientation="vertical">
+		<start>W</start>
+		<end>Minibone</end>
+	</connection>
+	<connection orientation="vertical">
+		<start>Y</start>
+		<end>Minibone</end>
+	</connection>
+	<connection orientation="vertical">
+		<start>W</start>
+		<end>X</end>
+	</connection>
+	<connection orientation="vertical">
+		<start>Y</start>
+		<end>Z</end>
+	</connection>
+
+	<!--microbone-->
+	<stage>Microbone
+		<translation>6,0.5</translation>
+		<dimension>6,3</dimension>
+	</stage>
+	<connection orientation="horizontal">
+		<start>S</start>
+		<end>Microbone</end>
+	</connection>
+	
+	<valve>L
+		<translation>2, 1</translation>
+	</valve>
+	<connection orientation="vertical">
+		<start>L</start>
+		<end>Minibone</end>
+	</connection>
+	<connection orientation="horizontal">
+		<start>L</start>
+		<end>Microbone</end>
+	</connection>
+	<valve>S
+		<translation>13,1</translation>
+	</valve>
+	<connection orientation="horizontal">
+		<start>S</start>
+		<end>R</end>
+	</connection>
+	<valve>R
+		<translation>16,1</translation>
+	</valve>
+	<connection orientation="horizontal">
+		<start>R</start>
+		<end>Jan</end>
+	</connection>
+
+	<valve>U
+		<translation>8,-2.5</translation>
+	</valve>	
+	<connection orientation="vertical">
+		<start>U</start>
+		<end>Microbone</end>
+	</connection>
+	<connection orientation="vertical">
+		<start>U</start>
+		<end>BTurbo</end>
+	</connection>
+	<turbo>BTurbo
+		<translation>6,-7.5</translation>
+		<dimension>5,3</dimension>
+	</turbo>
+	
+	<valve>T
+		<translation>2,6</translation>
+	</valve>
+	<connection>
+		<start>T</start>
+		<end>Microbone</end>
+	</connection>
+	<valve>K
+		<translation>6,6</translation>
+	</valve>
+	<connection orientation="vertical">
+		<start>K</start>
+		<end>Microbone</end>
+	</connection>
+	<valve>M
+		<translation>10,6</translation>
+	</valve>
+	<connection orientation="vertical">
+		<start>M</start>
+		<end>Microbone</end>
+	</connection>
+
+	<!--jan -->	
+	<spectrometer>Jan
+		<translation>19,0</translation>
+		<dimension>5,5</dimension>
+	</spectrometer>
+	<valve>O
+		<translation>20,-3</translation>
+	</valve>
+	<connection orientation="vertical">
+		<start>O</start>
+		<end>Jan</end>
+	</connection>
+	
+	<!--<label>Diode/UV Laser
+		<translation>-18,9</translation>
+	</label>
+	<label>D50
+		<translation>6,9</translation>
+	</label>
+	<label>NP10
+		<translation>-9,9</translation>
+	</label>
+	
+	<label>NP10
+		<translation>10,9</translation>
+	</label>
+	<label>CO2 Laser
+		<translation>-2.6,9</translation>
+	</label>
+	-->
+	
+	
+	
+	
+	<!--gauges -->
+	<gauge>Bone IG
+	    <translation>-15,-8</translation>
+		<dimension>3.5,2</dimension>
+	</gauge>
+	<connection orientation="horizontal">
+	    <start>Bone IG</start>
+	    <end>C</end>
+	</connection>
+	<gauge>Microbone IG
+	    <translation>11,-4.5</translation>
+		<dimension>6,2</dimension>
+	</gauge>
+	<connection orientation="horizontal">
+	    <start>Microbone IG</start>
+	    <end offset="1.5,0">U</end>
+	</connection>
+	<gauge>Roughing IG
+	    <translation>1.5,13.7</translation>
+		<dimension>5,2</dimension>
+	</gauge>
+	<connection orientation="vertical">
+	    <start>Roughing IG</start>
+	    <end>RTurbo</end>
+	</connection>
+	
+	<turbo>RTurbo
+		<translation>6,16.5</translation>
+		<dimension>5,3</dimension>
+	</turbo>
+	<connection orientation="horizontal">
+	    <start>RTurbo</start>
+	    <end>G</end>
+	</connection>
+
+	<laser>Diode
+	    <translation>-16,9.75</translation>
+		<dimension>5,3</dimension>
+	</laser>
+	<connection orientation='vertical'>
+	    <start>B</start>
+	    <end>Diode</end>
+	</connection>
+	
+	<laser>UV	    
+	    <translation>14,9.75</translation>
+		<dimension>5,3</dimension>
+	</laser>
+    <connection orientation='horizontal'>
+	    <start>AP10</start>
+	    <end>UV</end>
+	</connection>
+	
+	<getter>D50
+	    <translation>5.5,9.75</translation>
+		<dimension>3,3</dimension>
+	</getter>
+	<connection orientation='vertical'>
+	    <start>K</start>
+	    <end>D50</end>
+	</connection>
+	<getter>AP10
+	    <translation>9.5,9.75</translation>
+		<dimension>3,3</dimension>
+	</getter>
+	<connection orientation='vertical'>
+	    <start>M</start>
+	    <end>AP10</end>
+	</connection>
+	<getter>NP10
+	    <translation>-9.5,9.075</translation>
+		<dimension>3,3</dimension>
+	</getter>
+	<connection orientation='vertical'>
+	    <start>N</start>
+	    <end>NP10</end>
+	</connection>
+</root>

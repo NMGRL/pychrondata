@@ -1,0 +1,10 @@
+<root>
+    <network>
+        <color tag='spectrometer'>0,170,170
+        </color>
+        <color tag='pump'>255,127,0
+        </color>
+        <color tag='laser'>255,54,54
+        </color>
+    </network>	
+</root>

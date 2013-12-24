@@ -1,0 +1,1 @@
+'''mass spec equivalentMessage "Expand Pipette 1"Close "Minibone to Turbo"Delay 2Open "Outer Pipette 1"BeginInterval 15CompleteInterval'''def main():	info('Expand Pipette 1')	close(description='Minibone to Turbo')	sleep(2)	open(description='Outer Pipette 1')	sleep(15)

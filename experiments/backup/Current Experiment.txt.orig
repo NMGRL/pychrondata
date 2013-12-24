@@ -1,0 +1,12 @@
+
+username: a
+date: 2013-12-13 19:58:19.523684
+mass_spectrometer: Jan
+delay_before_analyses: 1
+delay_between_analyses: 1
+extract_device: Fusions CO2
+tray: --- 
+load: 1401
+#================================================================================
+labnumber	sample	position	e_value	e_units	duration	cleanup	beam_diameter	pattern	e_group	extraction	measurement	truncate	post_eq	post_meas	dis_btw_pos	weight	comment	overlap	autocenter
+22511	FC-2		10.0		1.0	10.0	34.0			pause	unknown_peak_hop	age>100.0, 100				1.0	foo		

@@ -1,0 +1,10 @@
+
+username: 
+date: 2013-05-17 23:11:04.186909
+mass_spectrometer: 
+delay_before_analyses: 5
+delay_between_analyses: 30
+extract_device: 
+tray:  
+#================================================================================
+labnumber	position	e_value	e_units	duration	cleanup	pattern	e_group	extraction	measurement	post_eq	post_meas	dis_btw_pos	weight	comment	overlap	autocenter

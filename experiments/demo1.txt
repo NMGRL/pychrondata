@@ -1,0 +1,13 @@
+
+username: a
+date: 2013-07-13 09:47:55.196639
+mass_spectrometer: Jan
+delay_before_analyses: 5
+delay_between_analyses: 5
+extract_device: Fusions Diode
+tray: --- 
+#================================================================================
+labnumber	sample	position	e_value	e_units	duration	cleanup	beam_diameter	pattern	e_group	extraction	measurement	post_eq	post_meas	dis_btw_pos	weight	comment	overlap	autocenter
+61312	NM-779				5.0	3.54			1	pause								
+61312	NM-779				5.0	3.54			1	pause								
+61312	NM-779				5.0	3.54			1	pause								

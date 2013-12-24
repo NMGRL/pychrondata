@@ -1,0 +1,18 @@
+<root>
+	<getter>BoneGP50
+		<valve>G</valve>
+		<hotcold>hot</hotcold>
+		<kind>GP50</kind>
+	</getter>
+	<getter>BoneD50
+		<valve>H</valve>
+		<hotcold>hot</hotcold>
+		<kind>D50</kind>
+	</getter>
+	<getter>BoneNP10
+		<valve>I</valve>
+		<hotcold>hot</hotcold>
+		<kind>NP10</kind>
+	</getter>
+	
+</root>

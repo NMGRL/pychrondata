@@ -1,0 +1,108 @@
+
+username: McIntosh
+date: 2013-10-06 20:39:59.873966
+mass_spectrometer: Jan
+delay_before_analyses: 5
+delay_between_analyses: 5
+extract_device: Fusions CO2
+tray:  
+load: 
+#================================================================================
+labnumber	sample	position	e_value	e_units	duration	cleanup	beam_diameter	pattern	e_group	extraction	measurement	truncate	post_eq	post_meas	dis_btw_pos	weight	comment	overlap	autocenter
+dg		20	0.28	watts	30.0		2.0			co2_degas									
+dg		21	0.28	watts	30.0		2.0			co2_degas									
+dg		22	0.28	watts	30.0		2.0			co2_degas									
+dg		23	0.28	watts	30.0		2.0			co2_degas									
+dg		24	0.28	watts	30.0		2.0			co2_degas									
+dg		25	0.28	watts	30.0		2.0			co2_degas									
+dg		26	0.28	watts	30.0		2.0			co2_degas									
+dg		27	0.28	watts	30.0		2.0			co2_degas									
+dg		28	0.28	watts	30.0		2.0			co2_degas									
+dg		29	0.28	watts	30.0		2.0			co2_degas									
+dg		30	0.28	watts	30.0		2.0			co2_degas									
+dg		31	0.28	watts	30.0		2.0			co2_degas									
+dg		32	0.28	watts	30.0		2.0			co2_degas									
+dg		33	0.28	watts	30.0		2.0			co2_degas									
+dg		34	0.28	watts	30.0		2.0			co2_degas									
+dg		35	0.28	watts	30.0		2.0			co2_degas									
+dg		36	0.28	watts	30.0		2.0			co2_degas									
+dg		37	0.28	watts	30.0		2.0			co2_degas									
+dg		38	0.28	watts	30.0		2.0			co2_degas									
+dg		39	0.28	watts	30.0		2.0			co2_degas									
+dg		40	0.28	watts	30.0		2.0			co2_degas									
+dg		41	0.28	watts	30.0		2.0			co2_degas									
+dg		42	0.28	watts	30.0		2.0			co2_degas									
+dg		43	0.28	watts	30.0		2.0			co2_degas									
+dg		44	0.28	watts	30.0		2.0			co2_degas									
+dg		45	0.28	watts	30.0		2.0			co2_degas									
+dg		46	0.28	watts	30.0		2.0			co2_degas									
+dg		47	0.28	watts	30.0		2.0			co2_degas									
+dg		48	0.28	watts	30.0		2.0			co2_degas									
+dg		49	0.28	watts	30.0		2.0			co2_degas									
+dg		50	0.28	watts	30.0		2.0			co2_degas									
+dg		51	0.28	watts	30.0		2.0			co2_degas									
+dg		52	0.28	watts	30.0		2.0			co2_degas									
+dg		53	0.28	watts	30.0		2.0			co2_degas									
+dg		54	0.28	watts	30.0		2.0			co2_degas									
+dg		55	0.28	watts	30.0		2.0			co2_degas									
+dg		56	0.28	watts	30.0		2.0			co2_degas									
+dg		57	0.28	watts	30.0		2.0			co2_degas									
+dg		58	0.28	watts	30.0		2.0			co2_degas									
+dg		59	0.28	watts	30.0		2.0			co2_degas									
+dg		60	0.28	watts	30.0		2.0			co2_degas									
+dg		61	0.28	watts	30.0		2.0			co2_degas									
+dg		62	0.28	watts	30.0		2.0			co2_degas									
+dg		63	0.28	watts	30.0		2.0			co2_degas									
+dg		64	0.28	watts	30.0		2.0			co2_degas									
+dg		65	0.28	watts	30.0		2.0			co2_degas									
+dg		66	0.28	watts	30.0		2.0			co2_degas									
+dg		67	0.28	watts	30.0		2.0			co2_degas									
+dg		68	0.28	watts	30.0		2.0			co2_degas									
+dg		69	0.28	watts	30.0		2.0			co2_degas									
+dg		70	0.28	watts	30.0		2.0			co2_degas									
+dg		71	0.28	watts	30.0		2.0			co2_degas									
+dg		72	0.28	watts	30.0		2.0			co2_degas									
+dg		73	0.28	watts	30.0		2.0			co2_degas									
+dg		74	0.28	watts	30.0		2.0			co2_degas									
+dg		75	0.28	watts	30.0		2.0			co2_degas									
+dg		76	0.28	watts	30.0		2.0			co2_degas									
+dg		77	0.28	watts	30.0		2.0			co2_degas									
+dg		78	0.28	watts	30.0		2.0			co2_degas									
+dg		79	0.28	watts	30.0		2.0			co2_degas									
+dg		80	0.28	watts	30.0		2.0			co2_degas									
+dg		81	0.28	watts	30.0		2.0			co2_degas									
+dg		82	0.28	watts	30.0		2.0			co2_degas									
+dg		83	0.28	watts	30.0		2.0			co2_degas									
+dg		84	0.28	watts	30.0		2.0			co2_degas									
+dg		85	0.28	watts	30.0		2.0			co2_degas									
+dg		86	0.28	watts	30.0		2.0			co2_degas									
+dg		87	0.28	watts	30.0		2.0			co2_degas									
+dg		88	0.28	watts	30.0		2.0			co2_degas									
+dg		89	0.28	watts	30.0		2.0			co2_degas									
+dg		90	0.28	watts	30.0		2.0			co2_degas									
+dg		91	0.28	watts	30.0		2.0			co2_degas									
+dg		92	0.28	watts	30.0		2.0			co2_degas									
+dg		93	0.28	watts	30.0		2.0			co2_degas									
+dg		94	0.28	watts	30.0		2.0			co2_degas									
+dg		95	0.28	watts	30.0		2.0			co2_degas									
+dg		96	0.28	watts	30.0		2.0			co2_degas									
+dg		97	0.28	watts	30.0		2.0			co2_degas									
+dg		98	0.28	watts	30.0		2.0			co2_degas									
+dg		99	0.28	watts	30.0		2.0			co2_degas									
+dg		100	0.28	watts	30.0		2.0			co2_degas									
+dg		101	0.28	watts	30.0		2.0			co2_degas									
+dg		102	0.28	watts	30.0		2.0			co2_degas									
+dg		103	0.28	watts	30.0		2.0			co2_degas									
+dg		104	0.28	watts	30.0		2.0			co2_degas									
+dg		105	0.28	watts	30.0		2.0			co2_degas									
+dg		106	0.28	watts	30.0		2.0			co2_degas									
+dg		107	0.28	watts	30.0		2.0			co2_degas									
+dg		108	0.28	watts	30.0		2.0			co2_degas									
+dg		109	0.28	watts	30.0		2.0			co2_degas									
+dg		110	0.28	watts	30.0		2.0			co2_degas									
+dg		111	0.28	watts	30.0		2.0			co2_degas									
+dg		112	0.28	watts	30.0		2.0			co2_degas									
+dg		113	0.28	watts	30.0		2.0			co2_degas									
+dg		114	0.28	watts	30.0		2.0			co2_degas									
+dg		115	0.28	watts	30.0		2.0			co2_degas									
+dg		116	0.28	watts	30.0		2.0			co2_degas									

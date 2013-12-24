@@ -1,0 +1,16 @@
+CO2:
+ isolate:
+  open: A,B,C
+  close: D,E,F
+  unlock: A,B,C
+  lock: D,E,F
+ evacuate:
+  open: A,B,C
+  close: D,E,F
+  unlock: A,B,C
+  lock: D,E,F
+ finish:
+  open: A,B,C
+  close: D,E,F
+  unlock: A,B,C
+  lock: D,E,F

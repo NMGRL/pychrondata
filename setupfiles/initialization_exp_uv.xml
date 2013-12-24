@@ -1,0 +1,76 @@
+<root>
+  <globals>
+    <use_ipc>true</use_ipc>
+    <ignore_initialization_warnings>true</ignore_initialization_warnings>
+    <ignore_initialization_questions>false</ignore_initialization_questions>
+    <ignore_connection_warnings>true</ignore_connection_warnings>
+    <experiment_debug>true</experiment_debug>
+    <experiment_savedb>true</experiment_savedb>
+    <video_test>false</video_test>
+  </globals>
+  <plugins>
+    <general>
+      <plugin enabled="true">Experiment
+        <mode>client</mode>
+        <mode>client</mode>
+        <monitor enabled="true">automated_run_monitor
+          <communications>
+            <host>129.138.12.136</host>
+            <port>1068</port>
+            <kind>UDP</kind>
+          </communications>
+        </monitor>
+        <runner>
+          <communications>
+            <host>129.138.12.136</host>
+            <port>1068</port>
+            <kind>UDP</kind>
+          </communications>
+        </runner>
+      </plugin>
+      <plugin enabled="true">Processing</plugin>
+      <plugin enabled="true">MediaServer</plugin>
+      <plugin enabled="true">PyScript</plugin>
+      <plugin enabled="true">Video</plugin>
+      <plugin enabled="true">Database</plugin>
+    </general>
+    <hardware>
+      <plugin enabled="true">Spectrometer
+        <device enabled="true">spectrometer_microcontroller
+          <klass>ArgusController</klass>
+        </device>
+      </plugin>
+      <plugin enabled="false">ExtractionLine
+        <mode>client</mode>
+        <server enabled="false">systemserver</server>
+        <processor enabled="false">/tmp/hardware-extractionline</processor>
+        <manager enabled="false">gauge_manager
+          <device enabled="true">bone_micro_ion_controller
+            <klass>MicroIonController</klass>
+          </device>
+          <device enabled="false">microbone_micro_ion_controller
+            <klass>MicroIonController</klass>
+          </device>
+        </manager>
+        <manager enabled="true">valve_manager
+          <device enabled="true">valve_controller</device>
+        </manager>
+      </plugin>
+      <plugin enabled="true">FusionsUV
+        <klass>PychronUVLaserManager</klass>
+        <mode>client</mode>
+        <communications>
+          <host>129.138.12.132</host>
+          <port>1068</port>
+          <kind>UDP</kind>
+        </communications>
+      </plugin>
+    </hardware>
+    <data>
+    </data>
+    <social>
+      <plugin enabled="true">Email</plugin>
+      <plugin enabled="false">Twitter</plugin>
+    </social>
+  </plugins>
+</root>

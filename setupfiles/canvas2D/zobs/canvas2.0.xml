@@ -1,0 +1,467 @@
+<?xml version="1.0" ?>
+<root>
+    <!--obama -->
+    <spectrometer>Obama
+      <color>85,110,180</color>
+        <translation>-24,0.5</translation>
+        <dimension>5,5</dimension>
+    </spectrometer>
+    <valve>V
+   	<translation>-23,-3</translation>
+    </valve>
+    <connection orientation="vertical">
+        <start>V</start>
+        <end>Obama</end>
+    </connection>
+    <ionpump display_name="Ion Pump">ObamaIonPump
+	   <color>234, 165, 57</color>
+        <translation>-23,-7</translation>
+        <dimension>6,3</dimension>
+    </ionpump>
+    <connection orientation="vertical">
+        <start>V</start>
+        <end>ObamaIonPump</end>
+    </connection>
+    <!--jan -->
+    <spectrometer>Jan
+        <color>85,110,255</color>
+        <translation>19,0</translation>
+        <dimension>5,5</dimension>
+    </spectrometer>
+    <valve>O
+        <translation>21,-3</translation>
+    </valve>
+    <connection orientation="vertical">
+        <start>O</start>
+        <end>Jan</end>
+    </connection>
+    <ionpump display_name="Ion Pump">JanIonPump
+	   <color>234, 165, 57</color>
+        <translation>17,-7</translation>
+        <dimension>6,3</dimension>
+    </ionpump>
+    <connection orientation="vertical">
+        <start>O</start>
+        <end>JanIonPump</end>
+    </connection>
+    <!--diode-->
+    <laser>Diode
+        <dimension>4,2</dimension>
+        <color>170, 60, 60</color>
+        <translation>-14,12</translation>
+        <connection orientation="vertical">
+            <start>B</start>
+            <end>Diode</end>
+        </connection>
+    </laser>
+    <!--bone -->
+    <stage>Bone
+      <translation>-14,1</translation>
+        <dimension>8,3</dimension>
+        <valve>H
+        <translation>-18,1</translation>
+        </valve>
+        <connection orientation="horizontal">
+            <start>H</start>
+            <end>Obama</end>
+        </connection>
+        <valve>B
+        <translation>-14,6</translation>
+            <connection orientation="vertical">
+                <start>B</start>
+                <end>Bone</end>
+            </connection>
+        </valve>
+        <valve>D
+        <translation>-5,6</translation>
+        </valve>
+        <connection>
+            <start>D</start>
+            <end offset="6,0.5">Bone</end>
+        </connection>
+        <valve>C
+	   <translation>-11,-3</translation>
+        </valve>
+        <connection orientation="vertical">
+            <start>C</start>
+            <end>Bone</end>
+        </connection>
+        <connection orientation="vertical">
+            <start>C</start>
+            <end>ATurbo</end>
+        </connection>
+        <turbo>ATurbo
+            <color>255,127,0</color>
+            <translation>-13,-12</translation>
+            <dimension>5,3</dimension>
+        </turbo>
+        <valve>N
+        <translation>-9,6</translation>
+        </valve>
+        <connection orientation="vertical">
+            <start>N</start>
+            <end>Bone</end>
+        </connection>
+        <connection orientation="horizontal">
+            <start>H</start>
+            <end>Bone</end>
+        </connection>
+        <valve>E
+        <translation>-5,1</translation>
+        </valve>
+        <connection orientation="horizontal">
+            <start>E</start>
+            <end>Bone</end>
+        </connection>
+        <valve>I
+        <translation>-5,-3</translation>
+        </valve>
+        <connection orientation="vertical">
+            <start>E</start>
+            <end>I</end>
+        </connection>
+    </stage>
+    <!--co2 -->
+    <laser>CO2
+        <color>150, 60, 134</color>
+        <translation>-1.85,12</translation>
+        <dimension>3,2</dimension>
+        <valve>F
+        <translation>-5,11</translation>
+        </valve>
+        <valve>A
+        <translation>2,11</translation>
+        </valve>
+        <connection orientation="vertical">
+            <start>F</start>
+            <end>D</end>
+        </connection>
+        <connection orientation="vertical">
+            <start>A</start>
+            <end>T</end>
+        </connection>
+        <connection>
+            <start>F</start>
+            <end>CO2</end>
+        </connection>
+        <connection>
+            <start>A</start>
+            <end>CO2</end>
+        </connection>
+        <!--
+        <rough_valve>G
+        <translation>-1.75,16</translation>
+        </rough_valve>
+        <connection orientation="vertical">
+            <start offset="1.5,0">G</start>
+            <end>CO2</end>
+        </connection>
+        -->
+    </laser>
+    <!--minibone -->
+    <stage>Minibone
+        <translation>-1,-12</translation>
+        <dimension>6,3</dimension>
+        <valve>P
+        <translation>-6,-11.5</translation>
+        </valve>
+        <connection orientation="horizontal">
+            <start>P</start>
+            <end>ATurbo</end>
+        </connection>
+        <connection orientation="horizontal">
+            <start>P</start>
+            <end>Minibone</end>
+        </connection>
+        <valve>Q
+        <translation>6,-11.5</translation>
+        </valve>
+        <connection orientation="horizontal">
+            <start>Q</start>
+            <end>Minibone</end>
+        </connection>
+        <spectrometer>Quad
+        <color>85,110,150</color>
+            <translation>9,-12</translation>
+            <dimension>6,3</dimension>
+        </spectrometer>
+        <connection orientation="horizontal">
+            <start>Q</start>
+            <end>Quad</end>
+        </connection>
+        
+        <connection>
+            <start>I</start>
+            <end>Minibone</end>
+        </connection>
+        <valve>W
+            <translation>-1,-15.25</translation>
+        </valve>
+        <valve>X
+            <translation>-1,-20.25</translation>
+        </valve>
+        <valve>Y
+            <translation>3,-15.25</translation>
+        </valve>
+        <valve>Z
+            <translation>3,-20.25</translation>
+        </valve>
+        <connection orientation="vertical">
+            <start>W</start>
+            <end>Minibone</end>
+        </connection>
+        <connection orientation="vertical">
+            <start>Y</start>
+            <end>Minibone</end>
+        </connection>
+        <connection orientation="vertical">
+            <start>W</start>
+            <end>CocktailPipette</end>
+        </connection>
+        <connection orientation="vertical">
+            <start>Y</start>
+            <end>AirPipette</end>
+        </connection>
+    </stage>
+    <!--microbone-->
+    <stage>Microbone
+        <translation>6,1</translation>
+        <dimension>6,3</dimension>
+        <connection orientation="horizontal">
+            <start>S</start>
+            <end>Microbone</end>
+        </connection>
+        <valve>L
+        <translation>2, 1</translation>
+        </valve>
+        <connection orientation="vertical">
+            <start>L</start>
+            <end>Minibone</end>
+        </connection>
+        <connection orientation="horizontal">
+            <start>L</start>
+            <end>Microbone</end>
+        </connection>
+        <valve>S
+        <translation>13,1</translation>
+        </valve>
+        <connection orientation="horizontal">
+            <start>S</start>
+            <end>R</end>
+        </connection>
+        <valve>R
+        <translation>16,1</translation>
+        </valve>
+        <connection orientation="horizontal">
+            <start>R</start>
+            <end>Jan</end>
+        </connection>
+        <valve>U
+        <translation>8,-3</translation>
+        </valve>
+        <connection orientation="vertical">
+            <start>U</start>
+            <end>Microbone</end>
+        </connection>
+        <connection orientation="vertical">
+            <start>U</start>
+            <end>BTurbo</end>
+        </connection>
+        <turbo>BTurbo
+        <color>255,200,0</color>
+            <translation>6,-7</translation>
+            <dimension>5,3</dimension>
+        </turbo>
+        <valve>T
+        <translation>2,6</translation>
+        </valve>
+        <connection>
+            <start>T</start>
+            <end>Microbone</end>
+        </connection>
+        <valve>K
+        <translation>6,6</translation>
+        </valve>
+        <connection orientation="vertical">
+            <start>K</start>
+            <end>Microbone</end>
+        </connection>
+        <valve>M
+        <translation>10,6</translation>
+        </valve>
+        <connection orientation="vertical">
+            <start>M</start>
+            <end>Microbone</end>
+        </connection>
+    </stage>
+    <!--tanks-->
+    <tank>Cocktail
+      <color>59, 163, 166</color>
+        <translation>-4,-23</translation>
+        <dimension>5,2</dimension>
+        <connection orientation="vertical">
+            <start>X</start>
+            <end>Cocktail</end>
+        </connection>
+    </tank>
+    <pipette display_name="">CocktailPipette
+    	  <color>59, 163, 166</color>
+        <!--<color>59, 163, 120</color>-->
+        <translation>-1,-17.75</translation>
+        <dimension>2,2</dimension>
+    </pipette>
+    <connection orientation="vertical">
+        <start>X</start>
+        <end>CocktailPipette</end>
+    </connection>
+    <tank>Air
+	   <color>0, 195, 255</color>
+        <translation>3,-23</translation>
+        <dimension>5,2</dimension>
+        <connection orientation="vertical">
+            <start>Z</start>
+            <end>Air</end>
+        </connection>
+    </tank>
+    <pipette display_name="">AirPipette
+	   <color>0, 195, 255</color>
+        <translation>3,-17.75</translation>
+        <dimension>2,2</dimension>
+    </pipette>
+    <connection orientation="vertical">
+        <start>Z</start>
+        <end>AirPipette</end>
+    </connection>
+    <!--
+    <label>Diode/UV Laser
+        <translation>-18,9</translation>
+    </label>
+    <label>Cocktail
+        <translation>-6.3,-17.3</translation>
+    </label>
+    <label>Air
+        <translation>5.8,-17.3</translation>
+    </label>
+    <label>CO2 Laser
+        <translation>-2.6,9</translation>
+    </label>
+    -->
+    <label>GP50
+        <translation>-9,9</translation>
+    </label>
+    <label>NP10+UV
+        <translation>10,9</translation>
+    </label>
+    <label>D50
+        <translation>6,9</translation>
+    </label>
+    <!-- 
+        
+        
+        LEGEND
+        
+
+    -->
+    <label use_border="false">Owned 
+	   <translation>-24,-12.25</translation>
+    </label>
+    <rect display_name="" fill="false">
+        <translation>-19.5,-12.25</translation>
+        <dimension>1,1</dimension>
+        <color>0,0,0</color>
+    </rect>
+    
+    <label use_border="false">Locked
+	   <translation>-24,-14</translation>
+    </label>
+    <rect display_name="" fill="false">
+        <translation>-19.5,-14</translation>
+        <dimension>1,1</dimension>
+        <color>0,0,255</color>
+    </rect>
+    
+    <line>
+    <start>-24,-12</start><end>-15.5,-12</end>
+    </line>
+    
+    <label use_border="false">Static 
+	   <translation>-24,-16</translation>
+    </label>
+    <rect display_name="">
+        <translation>-19.5,-16</translation>
+        <dimension>1,1</dimension>
+        <color>204,204,204</color>
+    </rect>
+    <label use_border="false">Refs. 
+	   <translation>-24,-17.75</translation>
+    </label>
+    <rect display_name="">
+        <translation>-19.5,-17.75</translation>
+        <dimension>1,1</dimension>
+        <color>59, 163, 166</color>
+    </rect>
+    <rect display_name="">
+        <translation>-18,-17.75</translation>
+        <dimension>1,1</dimension>
+        <color>0, 195, 255</color>
+    </rect>
+    <label use_border="false">Lasers	
+	   <translation>-24,-19.5</translation>
+    </label>
+    <rect display_name="">
+        <translation>-19.5,-19.5</translation>
+        <dimension>1,1</dimension>
+        <color>150, 60, 134</color>
+    </rect>
+    <rect display_name="">
+        <translation>-18,-19.5</translation>
+        <dimension>1,1</dimension>
+        <color>170,60,60</color>
+    </rect>
+    <label use_border="false">Pump
+	   <translation>-24,-21.25</translation>
+    </label>
+    <rect display_name="">
+        <translation>-19.5,-21.25</translation>
+        <dimension>1,1</dimension>
+        <color>234, 165, 57</color>
+    </rect>
+    <rect display_name="">
+        <translation>-18,-21.25</translation>
+        <dimension>1,1</dimension>
+        <color>255,127,0</color>
+    </rect>
+    <rect display_name="">
+        <translation>-16.5,-21.25</translation>
+        <dimension>1,1</dimension>
+        <color>255,200,0</color>
+    </rect>
+    <label use_border="false">Spec
+	   <translation>-24,-23</translation>
+    </label>
+    <rect display_name="">
+        <translation>-19.5,-23</translation>
+        <dimension>1,1</dimension>
+        <color>85,110,180</color>
+    </rect>
+    <rect display_name="">
+        <translation>-18,-23</translation>
+        <dimension>1,1</dimension>
+        <color>85,110,150</color>
+    </rect>
+    <rect display_name="">
+        <translation>-16.5,-23</translation>
+        <dimension>1,1</dimension>
+        <color>85,110,255</color>
+    </rect>
+    
+    <image>RossLabsLogo.png
+        <translation>10,16</translation>
+        <scale>0.25,0.25</scale>
+    </image>
+        <image>NMGRL_logo.png
+        <translation>-23.75,10</translation>
+        <scale>0.075,0.075</scale>
+    </image>
+
+</root>

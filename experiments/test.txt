@@ -1,0 +1,12 @@
+
+username: a
+date: 2013-07-28 16:41:05.807297
+mass_spectrometer: Obama
+delay_before_analyses: 5
+delay_between_analyses: 30
+extract_device: Fusions Diode
+tray:  
+load: 1402
+#================================================================================
+labnumber	sample	position	e_value	e_units	duration	cleanup	beam_diameter	pattern	e_group	extraction	measurement	post_eq	post_meas	dis_btw_pos	weight	comment	overlap	autocenter
+61311	NM-791	9	10.0	watts	12.0	0.123				diode	unknown	pump_unknown	pump_ms					

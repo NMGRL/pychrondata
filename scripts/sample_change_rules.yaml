@@ -1,0 +1,17 @@
+CO2:
+ isolate:
+  unlock: A,F,G
+  close: A,F,G
+  lock: A,F,G
+ evacuate:
+  pre_message: Are you ready for evacuation?\n!Turn OFF Roughing Turbo and ion gauge!
+  unlock: G
+  open: G
+  lock: G
+ finish:
+  unlock: G,A
+  close: G
+  open: A,T,U
+  lock: G
+  post_message: Did you remember to turn on the Roughing Turbo and ion gauge?
+  

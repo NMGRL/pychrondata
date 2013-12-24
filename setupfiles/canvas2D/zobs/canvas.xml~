@@ -1,0 +1,217 @@
+<root>
+    <valve>Q
+        <translation>-22,17</translation>
+    </valve>
+    <valve>I
+        <translation>-8,15</translation>
+    </valve>
+    <valve>E
+        <translation>-4,15</translation>
+    </valve>
+    <valve>D
+        <translation>0,19</translation>
+    </valve>
+    <valve>N
+        <translation>4,19</translation>
+    </valve>
+    <valve>B
+        <translation>8,19</translation>
+    </valve>
+    
+    <valve>C
+        <translation>0,5</translation>
+    </valve>
+    <valve>P
+        <translation>-6,4</translation>
+    </valve>
+    
+    <valve>W
+        <translation>-20,5</translation>
+    </valve>
+    <valve>X
+        <translation>-20,2</translation>
+    </valve>
+    <valve>Y
+        <translation>-16,5</translation>
+    </valve>
+    <valve>Z
+        <translation>-16,2</translation>
+    </valve>
+    
+    <valve>H
+        <translation>11,10</translation>
+    </valve>
+
+    <valve>R
+        <translation>-12,-9</translation>
+    </valve>
+    <valve>S
+        <translation>-8,-9</translation>
+    </valve>
+	<valve>L
+        <translation>-3,-5</translation>
+    </valve>
+	
+	<valve>U
+        <translation>-3,-13</translation>
+    </valve>
+	 
+	<valve>M
+        <translation>1,-5</translation>
+    </valve>
+
+	
+
+    <stage>Bone
+        <translation>0,10</translation>
+        <dimension>10,4</dimension>
+    </stage>
+    <stage>Minibone
+        <translation>-20,10</translation>
+        <dimension>7.5,4</dimension>
+    </stage>
+
+    <stage>Microbone
+        <translation>-4,-10</translation>
+        <dimension>7.5,4</dimension>
+    </stage>
+    
+    <getter valve="N">NP10
+    </getter>
+    
+    <spectrometer>Obama
+    	<translation>14,10</translation>
+        <dimension>6,4</dimension>
+    </spectrometer>
+    <spectrometer>Jan
+    	<translation>-20,-10</translation>
+        <dimension>6,4</dimension>
+    </spectrometer>
+    
+    <turbo>Turbo2
+	    <translation>-4,-17</translation>
+        <dimension>4,3</dimension>
+    </turbo>
+    
+	<turbo>Turbo1
+	    <translation>-1,-1</translation>
+        <dimension>4,3</dimension>
+    </turbo>    
+    
+    <connection orientation="vertical">
+        <start>W</start>
+        <end>Minibone</end>
+    </connection>
+    <connection orientation="vertical">
+        <start>W</start>
+        <end>X</end>
+    </connection>
+	
+	<connection orientation="vertical">
+        <start>Y</start>
+        <end>Minibone</end>
+    </connection>    
+    <connection orientation="vertical">
+        <start>Y</start>
+        <end>Z</end>
+    </connection>
+    
+    <connection orientation="vertical">
+        <start>N</start>
+        <end>Bone</end>
+    </connection>
+    <connection orientation="vertical">
+        <start>D</start>
+        <end>Bone</end>
+    </connection>
+    <connection orientation="vertical">
+        <start>B</start>
+        <end>Bone</end>
+    </connection>
+    
+    <connection orientation="vertical">
+        <start>C</start>
+        <end>Bone</end>
+    </connection>
+    
+    <connection orientation="horizontal">
+        <start>I</start>
+        <end>E</end>
+    </connection>
+
+    <connection orientation="horizontal">
+        <start>H</start>
+        <end>Bone</end>
+    </connection>
+        <connection orientation="horizontal">
+        <start>H</start>
+        <end>Obama</end>
+    </connection>
+    
+    <connection>
+        <start>I</start>
+        <end>Minibone</end>
+    </connection>
+    <connection>
+        <start>E</start>
+        <end>Bone</end>
+    </connection>
+    
+    <connection>
+        <start>Q</start>
+        <end>Minibone</end>
+    </connection>
+    
+    <connection>
+        <start>P</start>
+        <end offset="5,2">Minibone</end>
+    </connection>
+    
+    <connection orientation="horizontal">
+        <start>R</start>
+        <end>Jan</end>
+    </connection>
+    
+    <connection orientation="horizontal">
+        <start>S</start>
+        <end>R</end>
+    </connection>    
+    
+    <connection orientation="horizontal">
+        <start>S</start>
+        <end>Microbone</end>
+    </connection>    
+    <connection orientation="vertical">
+        <start>L</start>
+        <end>Microbone</end>
+    </connection>
+	<connection orientation="vertical">
+        <start>U</start>
+        <end>Microbone</end>
+    </connection>
+    <connection>
+        <start>L</start>
+        <end offset="6,0">Minibone</end>
+    </connection>    
+    
+    <connection orientation="vertical">
+        <start>U</start>
+        <end>Turbo2</end>
+    </connection>
+    
+    <connection orientation="vertical">
+        <start>C</start>
+        <end>Turbo1</end>
+    </connection>     
+    
+    <connection>
+        <start>P</start>
+        <end>Turbo1</end>
+    </connection> 
+    
+    <connection orientation="vertical">
+        <start>M</start>
+        <end>Microbone</end>
+    </connection>     
+    
+</root>

@@ -1,0 +1,136 @@
+
+username: a
+date: 2013-06-03 16:48:24.010792
+mass_spectrometer: Jan
+delay_before_analyses: 5
+delay_between_analyses: 20
+extract_device: Fusions Diode
+tray: --- 
+#================================================================================
+labnumber	position	e_value	e_units	duration	cleanup	pattern	e_group	extraction	measurement	post_eq	post_meas	dis_btw_pos	weight	comment	overlap	autocenter
+bu-FD-J	1,4															
+61313-87	1,4						1	pause	unknown_peak_hop							
+61313-87				5.0			1	pause								
+61313-87				5.0			1	pause								
+bu-FD-J	1,4															
+61313				5.0				pause								
+61312				5.0				pause								
+61312				5.0				pause								
+pa				50.0				pause	unknown							
+bu-FD-J	1,4															
+pa				50.0				pause								
+61312				5.0				pause								
+61312				5.0				pause								
+bu-FD-J	1,4															
+61312				5.0			1	pause								
+61312				5.0			1	pause								
+61312				5.0			1	pause								
+61312				5.0				pause								
+bu-FD-J	1,4															
+61312				5.0				pause								
+61312				5.0				pause								
+61312				5.0			2	pause								
+61312				5.0			2	pause								
+bu-FD-J	1,4						2									
+61312				5.0			2	pause								
+61312				5.0				pause								
+61312				5.0				pause								
+61312				5.0				pause								
+61312				5.0				pause								
+61312				5.0				pause								
+61312				5.0				pause								
+61312				5.0				pause								
+bu-FD-J	1,4															
+61313-87	1,4						3	pause	unknown_peak_hop							
+61313-87				5.0			3	pause								
+61313-87				5.0			3	pause								
+bu-FD-J	1,4															
+61313				5.0				pause								
+61312				5.0				pause								
+61312				5.0				pause								
+pa				50.0				pause	unknown							
+bu-FD-J	1,4															
+pa				50.0				pause								
+61312				5.0				pause								
+61312				5.0				pause								
+bu-FD-J	1,4															
+61312				5.0				pause								
+61312				5.0				pause								
+61312				5.0				pause								
+61312				5.0				pause								
+bu-FD-J	1,4															
+61312				5.0				pause								
+61312				5.0				pause								
+61312				5.0				pause								
+61312				5.0				pause								
+bu-FD-J	1,4															
+61312				5.0				pause								
+61312				5.0				pause								
+61312				5.0			4	pause								
+61312				5.0			4	pause								
+61312				5.0			4	pause								
+61312				5.0			4	pause								
+61312				5.0			4	pause								
+61312				5.0			4	pause								
+61312				5.0			4	pause								
+61312				5.0			4	pause								
+pa				50.0				pause	unknown							
+bu-FD-J	1,4															
+pa				50.0				pause								
+61312				5.0				pause								
+61312				5.0				pause								
+bu-FD-J	1,4															
+61311				5.0				pause								
+61311				5.0				pause								
+61311				5.0				pause								
+61311				5.0				pause								
+bu-FD-J	1,4															
+61311				5.0				pause								
+61311				5.0				pause								
+61311				5.0				pause								
+61311				5.0				pause								
+bu-FD-J	1,4															
+61311				5.0				pause								
+61311				5.0				pause								
+61311				5.0				pause								
+61309				5.0				pause								
+61309				5.0				pause								
+61309				5.0				pause								
+61309				5.0				pause								
+61309				5.0				pause								
+61309				5.0				pause								
+61311				5.0				pause								
+61311				5.0				pause								
+bu-FD-J	1,4															
+61311				5.0				pause								
+61311				5.0				pause								
+61311				5.0				pause								
+61311				5.0				pause								
+61311				5.0				pause								
+61311				5.0				pause								
+61311				5.0				pause								
+61311				5.0				pause								
+61311				5.0				pause								
+61311				5.0				pause								
+61310				5.0				pause								
+bu-FD-J	1,4															
+61310				5.0				pause								
+61310				5.0				pause								
+61310				5.0				pause								
+61310				5.0				pause								
+61310				5.0				pause								
+61310				5.0				pause								
+61310				5.0				pause								
+61310				5.0				pause								
+61310				5.0				pause								
+61310				5.0				pause								
+61310				5.0				pause								
+bu-FD-J	1,4															
+61310				5.0				pause								
+61310				5.0				pause								
+61310				5.0				pause								
+61310				5.0				pause								
+61310				5.0				pause								
+61310				5.0				pause								
+61310				5.0				pause								
+61310				5.0				pause								

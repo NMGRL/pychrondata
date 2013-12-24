@@ -1,0 +1,53 @@
+<root>
+  <globals>
+      <ignore_initialization_warnings>true</ignore_initialization_warnings>
+      <ignore_initialization_questions>false</ignore_initialization_questions>
+      <ignore_connection_warnings>true</ignore_connection_warnings>
+  </globals>
+  <plugins>
+    <general>
+      <plugin enabled="true">Database</plugin>
+      <plugin enabled="false">Experiment</plugin>
+      <plugin enabled="true">Processing</plugin>
+      <plugin enabled="false">PyScript</plugin>
+      <plugin enabled="false">ArArConstants</plugin>
+      <plugin enabled="false">Entry</plugin>
+      <plugin enabled="false">SystemMonitor</plugin>
+      <plugin enabled="true">DashboardServer</plugin>
+    </general>
+    <hardware>
+        <plugin enabled="false">Spectrometer
+            <device enabled="true">spectrometer_microcontroller
+              <klass>ArgusController</klass>
+            </device>
+        </plugin>
+        <plugin enabled="true">ExtractionLine
+            <processor enabled="false">/tmp/hardware-extractionline</processor>
+            <manager enabled="false">gauge_manager
+            <device enabled="true">bone_micro_ion_controller
+                <klass>MicroIonController</klass>
+            </device>
+            <device enabled="false">microbone_micro_ion_controller
+                <klass>MicroIonController</klass>
+                <required>false</required>
+            </device>
+            </manager>
+            <manager enabled="true">valve_manager
+                <device enabled="true">valve_controller</device>
+            </manager>
+            <device enabled="true">air_transducer
+                <klass>Transducer</klass>
+            </device>
+            <device enabled="true">chiller
+                <klass>ThermoRack</klass>
+            </device>
+        </plugin>
+    </hardware>
+    <data>
+    </data>
+    <social>
+      <plugin enabled="true">Email</plugin>
+      <plugin enabled="false">Twitter</plugin>
+    </social>
+  </plugins>
+</root>

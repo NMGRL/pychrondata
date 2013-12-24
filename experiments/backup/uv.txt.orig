@@ -1,0 +1,12 @@
+
+username: 
+date: 2013-10-22 20:52:27.553500
+mass_spectrometer: Jan
+delay_before_analyses: 5
+delay_between_analyses: 30
+extract_device: Fusions UV
+tray:  
+load: 
+#================================================================================
+labnumber	sample	position	e_value	e_units	duration	cleanup	beam_diameter	pattern	e_group	extraction	measurement	truncate	post_eq	post_meas	dis_btw_pos	weight	comment	overlap	autocenter	reprate	mask	attenuator	image
+61551	BM 1	t2-2	10.0	burst	30.0	40.0				uv                  										24	43		

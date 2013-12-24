@@ -1,0 +1,10 @@
+period: 2000
+start_delay: 20
+end_delay: 120
+setpoints:
+ - [800, 'equilibrate']
+ - [900, 'equilibrate']
+ - [1000, 'equilibrate']
+ - [1100, 'equilibrate']
+ - [1150, 'equilibrate']
+ - [1200, 'equilibrate']

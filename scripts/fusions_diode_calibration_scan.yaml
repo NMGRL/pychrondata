@@ -1,0 +1,5 @@
+start: 600
+end: 1400
+step: 50
+mean_tol: 1.5
+std: 5

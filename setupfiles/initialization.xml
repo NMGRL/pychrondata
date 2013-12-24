@@ -1,0 +1,21 @@
+<root>
+  <globals>
+  </globals>
+  <plugins>
+    <general>
+      <plugin enabled="false">Database</plugin>
+      <plugin enabled="false">Experiment</plugin>
+      <plugin enabled="false">Processing</plugin>
+      <plugin enabled="false">PyScript</plugin>
+      <plugin enabled="true">CanvasDesigner</plugin>
+    </general>
+    <hardware>
+    </hardware>
+    <data>
+    </data>
+    <social>
+      <plugin enabled="false">Email</plugin>
+      <plugin enabled="false">Twitter</plugin>
+    </social>
+  </plugins>
+</root>

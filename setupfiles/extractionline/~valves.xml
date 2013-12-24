@@ -1,0 +1,68 @@
+<root>
+    <group>bone
+        <valve query_state="false">C
+            <address>313</address>
+            <description>Bone to Analyical Turbo</description>
+        </valve>
+        <valve query_state="false">B
+            <address>306</address>
+            <description>Bone to Diode</description>
+        </valve>
+        <valve query_state="false">E
+            <address>308</address>
+            <description>Bone to Minibone</description>
+        </valve>
+        <valve query_state="false">D
+            <address>312</address>
+            <description>Bone to CO2</description>
+        </valve>
+        <valve query_state="false">H
+            <address>309</address>
+            <description>Mass Spec Inlet</description>
+        </valve>
+        <valve query_state="false">N
+            <address>311</address>
+            <description>Getter NP-10</description>
+        </valve>
+        <valve query_state="false">J
+            <address>307</address>
+            <description>Jan Inlet</description>
+        </valve>
+    </group>
+    <group>mini
+        <valve query_state="false">I
+            <address>306</address>
+            <description>Minibone to Bone</description>
+        </valve>
+        <valve query_state="false">P
+            <address>314</address>
+            <description>Minibone to Analytical Turbo</description>
+        </valve>
+        <valve query_state="false">W
+            <address>309</address>
+            <interlock>X</interlock>
+            <description>Outer Pipette 1</description>
+        </valve>
+        <valve query_state="false">X
+            <address>310</address>
+            <interlock>W</interlock>
+            <description>Inner Pipette 1</description>
+        </valve>
+        <valve query_state="false">Y
+            <address>311</address>
+            <interlock>Z</interlock>
+            <description>Outer Pipette 2</description>
+        </valve>
+        <valve query_state="false">Z
+            <address>312</address>
+            <interlock>Y</interlock>
+            <description>Inner Pipette 2</description>
+        </valve>
+    </group>
+    <valve query_state="true">V
+    <address>51</address>
+            <actuator>arduino_valve_controller</actuator>
+            <description>Argus Ion Pump</description>
+    </valve>
+
+</root>

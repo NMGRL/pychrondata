@@ -1,0 +1,57 @@
+fontsize: 5
+leading: 7 #aka line spacing
+bgcolor: lightgrey
+#----------------------------------------------------------------------------------------
+L# = Lab number, Irrad = Irradiation number and tray letter, n = number of
+analyses use to compute age, MSWD = Mean Square Weighted Deviation Kaer=
+kaersutite phenocrysts, Glass= basaltic glass shard concentrate, GM= grondmass
+concentrate, San/An= sanidine and/or anorthoclase phenocrysts <br/>
+<b>Notes:</b><br/>
+<b>Sample preparation and irradiation:</b><br/>
+Basaltic glass shard samples were separated by
+extensive washing with water followed by an ultrasonic water bath. Sieved and
+washed samples were processed in magnetic separator and hand picked to remove
+additional contaminants.  Groundmass concentrates were separated by mechanical
+crushing and sieving, followed by magnetic separation to remove phenocrysts, a
+5-10 min HCl acid bath, a finally hand picked to ensure sample homogeneity
+Feldspar phenocrysts (85-01, 481.80-01, 1277.91-01, 1278.84-01, 1279.00-01) and
+kaersutite phenocrysts (822.78B), were hand picked using a binocular microscope.
+Samples treated with acid were immersed in 10% HCl or 15% HF in an ultrasonic
+bath, followed by ultrasonic rinsing with distilled water to remove the residual
+acid. All samples and neutron flux monitors were loaded into machined Al discs
+in a known geometry Neutron flux monitor Fish Canyon Tuff sanidine (FC-2).
+Assigned age = 28.02 Ma (Renne et al, 1998)<br/>
+
+<b>Instrumentation:</b><br/> 
+Mass Analyzer Products 215-50 mass spectrometer on line with
+automated all-metal extraction system. Samples step-heated using a Mo
+double-vacuum resistance furnace or defocused CO2  laser.  Heating duration in
+the furnace and laser were 10 min and 30 sec, respectively. Reactive gases
+removed during analysis by reaction with 3 SAES GP-50 getters, 2 operated at
+~450°C and 1 at 20°C.  Gas also exposed to a W filament operated at ~2000°C.<br/>
+
+<b>Analytical parameters:</b><br/> 
+Averaged furnace sensitivity 1.24x10<sup>-16</sup> mol/pA. 
+Averaged laser sensitivity 7.12x10<sup>-17</sup> mol/pA Total system blank and background
+for the furnace averaged 5017, 5.6, 6.5, 29.1, 7.8, 21.7 x 10<sup>-18</sup> moles. Total
+system blank and background for the laser averaged 376, 5.3, 1.9, 5.6, 7.8, 29.7
+x 10<sup>-18</sup> moles. J-factors  determined to a precision of ± 0.1%  by CO2
+laser-fusion of 4 to 6 single crystals from each of the 6 or 10  radial
+positions around the irradiation tray (6 for a 12 hole disc, 10 for a 20 hole
+disc). Correction factors for interfering nuclear reactions were determined
+using K-glass and CaF2 and are as follows: (<sup>40</sup>Ar/<sup>39</sup>Ar)<sub>K</sub> = 0 ±0.0004; 
+(<sup>36</sup>Ar/<sup>37</sup>Ar)<sub>Ca</sub> = 0.000289±0.000005; 
+and (<sup>39</sup>Ar/<sup>37</sup>Ar)<sub>Ca</sub> = 0.00068±0.00002<br/>
+
+<b>Age calculations:</b><br/> 
+Plateau age or preferred age calculated for the indicated
+steps by weighting each step by the inverse of the variance. Plateau age error
+is inverse-variance-weighted mean error (Taylor, 1982) times root MSWD where
+MSWD>1. MSWD values are calculated for n-1 degrees of freedom for plateau age.
+Isochron ages, <sup>40</sup>Ar/<sup>36</sup>Ar<sub>i</sub> and MSWD values calculated from regression results
+obtained by the methods of York (1969). Decay constants and isotopic abundances
+after Steiger and Jäger (1977). All errors reported at ±2σ, unless otherwise
+noted.
+				
+				
+					

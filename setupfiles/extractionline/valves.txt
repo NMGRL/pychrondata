@@ -1,0 +1,27 @@
+#Extraction Line Valves setup file
+#
+#set the Mass spectrometer and Quad inlet valves
+H,Q
+#the ADDR parameter currently is device specific.  if using a
+#AgilentGPActuator addresses should be in the form of <Slot><Channel>
+#(ex 101, 201, 310)
+#The ArduinoGPActuator has no concept of slots and uses the valve name
+#as the address
+#
+#NAME,ADDR,INTERLOCKS,DESC,QueryState [Actuator]
+#A,301,,
+#B,102,,
+C,308,,Bone to Analytical Turbo,false
+D,307,,Bone to Ion Pump,false
+E,305,,Bone to Minibone,false
+F,304,,Getter,false
+#G,107,,Mass spec Ion Pump
+H,303,,Mass Spec Inlet,false
+I,306,,Minibone to bone,false
+Q,301,,Quad Inlet,true,argus_valve_controller
+P,302,,Minibone to Analytical Turbo,false
+W,309,X,Outer Pipette 1,false
+X,310,W,Inner Pipette 1,false
+Y,311,Z,Outer Pipette 2,false
+Z,312,Y,Inner Pipette 2,false
+V,400,,Argus Inlet,argus_valve_controller, true

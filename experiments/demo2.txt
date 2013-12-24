@@ -1,0 +1,12 @@
+
+username: a
+date: 2013-07-16 19:40:32.245751
+mass_spectrometer: Jan
+delay_before_analyses: 5
+delay_between_analyses: 30
+extract_device: Fusions CO2
+tray:  
+#================================================================================
+labnumber	sample	position	e_value	e_units	duration	cleanup	beam_diameter	pattern	e_group	extraction	measurement	post_eq	post_meas	dis_btw_pos	weight	comment	overlap	autocenter
+a-01-J										air_x1	air	pump_air	pump_ms					
+a-01-J										air_x1	air	pump_air	pump_ms					

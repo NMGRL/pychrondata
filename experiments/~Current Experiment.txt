@@ -1,0 +1,48 @@
+
+username: a
+date: 2013-10-20 19:26:29.673158
+mass_spectrometer: Jan
+delay_before_analyses: 1
+delay_between_analyses: 1
+extract_device: Fusions CO2
+tray: --- 
+load: 1401
+#================================================================================
+labnumber	sample	position	e_value	e_units	duration	cleanup	beam_diameter	pattern	e_group	extraction	measurement	truncate	post_eq	post_meas	dis_btw_pos	weight	comment	overlap	autocenter
+ba-01-j			10.0		1.0	10.0			1	pause	unknown_peak_hop								
+ba-01-j			10.0		1.0	10.0			1	pause	air								
+ba-01-j			10.0		1.0	10.0			1	pause	air								
+61551	BM 1		10.0		1.0	10.0			1	pause	air								
+61551	BM 1		10.0		1.0	10.0			1	pause	air								
+61551	BM 1		10.0		1.0	10.0			1	pause	air								
+61551	BM 1		10.0		1.0	10.0			1	pause	air								
+61551	BM 1		10.0		1.0	10.0			1	pause	air								
+61551	BM 1		10.0		1.0	10.0			1	pause	air								
+61551	BM 1		10.0		100.0	10.0			1	pause									
+61551	BM 1		10.0		100.0	10.0			1	pause									
+61551	BM 1		10.0		100.0	10.0			1	pause									
+61551	BM 1		10.0		100.0	10.0			1	pause									
+61551	BM 1		10.0		100.0	10.0			1	pause	air								
+61551	BM 1		10.0		100.0	10.0			1	pause	air								
+61551	BM 1		10.0		100.0	10.0			1	pause	air								
+61551	BM 1		10.0		100.0	10.0			1	pause	air								
+61551	BM 1		10.0		100.0	10.0			1	pause	air								
+61551	BM 1		10.0		100.0	10.0			2	pause	air								
+61551	BM 1		10.0		100.0	10.0			2	pause	air								
+61551	BM 1		10.0		100.0	10.0			2	pause	air								
+61551	BM 1		10.0		100.0	10.0			2	pause	air								
+61551	BM 1		10.0		100.0	10.0			2	pause	air								
+61551	BM 1		10.0		100.0	10.0			2	pause	air								
+61551	BM 1		10.0		100.0	10.0			2	pause	air								
+61551	BM 1		10.0		100.0	10.0			2	pause	air								
+61551	BM 1		10.0		2.0	10.0			2	pause	air								
+61551	BM 1		10.0		2.0	10.0			2	pause	air								
+61551	BM 1		10.0		2.0	10.0			2	pause	air								
+bu-CO2-O			10.0		2.0	10.0			1	pause	air								
+bu-CO2-O			10.0		2.0	10.0			1	pause	air								
+bu-CO2-O			10.0		2.0	10.0			1	pause	air								
+a-00-O	air		10.0		2.0	10.0			1	pause	air								
+#19212			10.0		2.0	10.0				pause	air								
+#19212			10.0		2.0	10.0				pause	air								
+#19212			10.0		2.0	10.0				pause	air								
+#19212			10.0		2.0	10.0				pause	air								

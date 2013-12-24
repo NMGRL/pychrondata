@@ -1,0 +1,138 @@
+<root>
+	<group>co2
+		<valve query_state="false">A
+            <address>316</address>
+            <description>CO2 Laser to Jan</description>
+        </valve>
+        <valve query_state="false">F
+            <address>317</address>
+            <description>CO2 Laser to Obama</description>
+        </valve>
+        <valve query_state="false">G
+            <address>318</address>
+            <description>CO2 Laser to Roughing</description>
+        </valve>
+	</group>
+    <group>bone
+        <valve query_state="false">C
+            <address>313</address>
+            <description>Bone to Turbo</description>
+        </valve>
+        <valve query_state="false">B
+            <address>312</address>
+            <description>Bone to Diode Laser</description>
+        </valve>
+        <valve query_state="false">E
+            <address>308</address>
+            <description>Bone to Minibone</description>
+        </valve>
+        <valve query_state="false">D
+            <!--<<address>312</address>-->
+            <address>307</address>
+            <description>Bone to CO2 Laser</description>
+        </valve>
+        <valve query_state="false">H
+            <address>309</address>
+            <description>Mass Spec Inlet</description>
+        </valve>
+        <valve query_state="false">N
+            <address>311</address>
+            <description>Bone to Getter GP-50</description>
+        </valve>
+        <!--<valve query_state="false">J
+            <address>307</address>
+            <description>Bone to Jan Inlet</description>
+        </valve>-->
+    </group>
+    <group>mini
+        <valve query_state="false">I
+            <address>310</address>
+            <description>Minibone to Bone</description>
+        </valve>
+        <valve query_state="false">P
+            <address>314</address>
+            <description>Minibone to Turbo</description>
+        </valve>
+        <valve query_state="false">W
+            <address>302</address>
+            <interlock>X</interlock>
+            <description>Outer Pipette 1</description>
+        </valve>
+        <valve query_state="false">X
+            <address>303</address>
+            <interlock>W</interlock>
+            <description>Inner Pipette 1</description>
+        </valve>
+        <valve query_state="false">Y
+            <address>304</address>
+            <interlock>Z</interlock>
+            <description>Outer Pipette 2</description>
+        </valve>
+        <valve query_state="false">Z
+            <address>301</address>
+            <interlock>Y</interlock>
+            <description>Inner Pipette 2</description>
+        </valve>
+        <valve query_state="false">Q
+            <address>305</address>
+            <description>Quad Inlet</description>
+        </valve>
+    </group>
+    <group>micro
+        <valve query_state="false">R
+            <address>48</address>
+            <description>Mass Spec Inlet</description>
+            <actuator>arduino_valve_controller</actuator>
+        </valve>
+        <valve query_state="false">S
+            <address>45</address>
+            <description>Microbone to Inlet Pipette</description>
+            <actuator>arduino_valve_controller</actuator>
+        </valve>
+        
+        <valve query_state="false">L
+            <address>42</address>
+            <description>Microbone to Minibone</description>
+            <actuator>arduino_valve_controller</actuator>
+        </valve>
+        <valve query_state="false">M
+            <address>39</address>
+            <description>Microbone to Getter NP-10</description>
+            <actuator>arduino_valve_controller</actuator>
+        </valve>
+        <valve query_state="false">U
+            <address>36</address>
+            <description>Microbone to Turbo</description>
+            <actuator>arduino_valve_controller</actuator>
+        </valve>
+        <valve query_state="false">T
+            <address>33</address>
+            <description>Microbone to Laser</description>
+            <actuator>arduino_valve_controller</actuator>
+        </valve>
+        <valve query_state="false">K
+            <address>27</address>
+            <description>Microbone to Getter D-50</description>
+            <actuator>arduino_valve_controller</actuator>
+        </valve>
+    </group>
+    <valve query_state="true">V
+        <actuator>obama_argus_valve_controller</actuator>
+        <description>Obama Ion Pump</description>
+    </valve>
+    <valve query_state="true">O
+        <actuator>jan_argus_valve_controller</actuator>
+        <description>Jan Ion Pump</description>
+    </valve>
+    
+    <pipette>Cocktail
+        <outer>W</outer>
+        <inner>X</inner>
+    </pipette>
+    <pipette>Air
+        <outer>Y</outer>
+        <inner>Z</inner>
+    </pipette>
+    
+    
+</root>

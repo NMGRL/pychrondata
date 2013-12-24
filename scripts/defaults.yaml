@@ -1,0 +1,53 @@
+#script defaults file
+#defines default pyscripts for the analysis types
+#this yaml file returns a dictionary of dictionaries
+#.py does not have to be included for graphic clarity.
+Bg:
+ extraction: static.py
+ measurement: background
+ post_equilibration: 
+ post_measurement: pump_ms
+Ba:
+ extraction: air_x1
+ measurement: air
+ post_equilibration: pump_air
+ post_measurement: pump_ms
+Bc:
+ extraction: cocktail_x1
+ measurement: air
+ post_equilibration: pump_air
+ post_measurement: pump_ms
+Bu:
+ extraction: 
+ measurement: background
+ post_equilibration: pump_unknown
+ post_measurement: pump_ms
+A:
+ extraction: air_x1
+ measurement: air
+ post_equilibration: pump_air
+ post_measurement: pump_ms
+C:
+ extraction: cocktail_x1
+ measurement: background
+ post_equilibration: pump_air
+ post_measurement: pump_ms
+U:
+ extraction: 
+ measurement: unknown
+ post_equilibration: pump_unknown
+ post_measurement: pump_ms
+Pa:
+ extraction: pause
+ measurement:
+ post_equilibration:
+ post_measurement:
+Dg:
+ extraction: degas
+ measurement:
+ post_equilibration:
+ post_measurement:
+ extract_value: 0.28
+ extract_units: watts
+ 
+ 

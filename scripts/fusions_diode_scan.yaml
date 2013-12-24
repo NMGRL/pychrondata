@@ -1,0 +1,6 @@
+power: 40
+power_on: 10
+power_off: 1000
+duration: 1200
+period: 1
+temp: 950

@@ -1,0 +1,19 @@
+<root>
+	<origin>0,0</origin>
+	<xvidew>-25,25</xvidew>
+	<yview>-22,22</yview>
+	<color tag="bgcolor">lightblue
+	</color>
+	<!--
+	<color tag="turbo">255,127,0
+	</color>
+	<color tag="spectrometer">0,170,170
+	</color>
+	-->
+	<color tag="gauge">255,255,0
+	</color>
+	<color tag="getter">94,87,94
+	</color>
+	<font>modern 10</font>
+	
+</root>

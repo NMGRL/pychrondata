@@ -1,0 +1,119 @@
+<root>
+    <spectrometer>Obama
+        <color>0,170,170</color>
+        <translation>-24,0</translation>
+		<dimension>5,5</dimension>
+		<valve>V
+		    <translation>-23,-3</translation>
+		    <connection orientation="vertical">
+	    	    <start>V</start>
+    		    <end>Obama</end>
+        	</connection>
+	    </valve>
+    </spectrometer>
+    <stage>Bone
+        <translation>-14,0.5</translation>
+		<dimension>8,3</dimension>
+     <valve>H
+        <translation>-18,1</translation>
+        <connection orientation="horizontal">
+		    <start>H</start>
+    		<end>Obama</end>
+	    </connection>
+	    <connection orientation="horizontal">
+    		<start>H</start>
+	    	<end>Bone</end>
+    	</connection>
+     </valve>
+     <valve>C
+		<translation>-11,-3</translation>
+		<connection orientation="vertical">
+    		<start>C</start>
+    		<end>Bone</end>
+    	</connection>
+	    <connection orientation="vertical">
+		    <start>C</start>
+    		<end>ATurbo</end>
+	    </connection>
+	</valve>
+    <valve>B
+		<translation>-14,6</translation>
+		<connection orientation="vertical">
+    		<start>B</start>
+		<end>Bone</end>
+	</connection>
+	</valve>
+	<valve>D
+		<translation>-5,6</translation>
+		<connection>
+	    	<start>D</start>
+		    <end offset="7,1.5">Bone</end>
+    	</connection>
+	</valve>
+	<valve>N
+		<translation>-9,6</translation>
+        <connection orientation="vertical">
+            <start>N</start>
+            <end>Bone</end>
+        </connection>
+	</valve>	
+
+	<valve>E
+		<translation>-5,1</translation>
+		<connection orientation="horizontal">
+		    <start>E</start>
+    		<end>Bone</end>
+	    </connection>
+	</valve>
+	<valve>I
+		<translation>-5,-3</translation>
+		<connection orientation="vertical">
+            <start>E</start>
+            <end>I</end>
+        </connection>
+	</valve>
+    <turbo>ATurbo
+        <color>255,127,0</color>
+		<translation>-13,-12</translation>
+		<dimension>5,3</dimension>
+	</turbo>
+    </stage>
+    <laser>CO2
+        <color>191,38,38</color>
+        <translation>-1.85,12</translation>
+        <dimension>3,2</dimension>
+        <valve>F
+            <translation>-5,11</translation>
+        </valve>
+        <valve>A
+            <translation>2,11</translation>
+        </valve>
+        <connection orientation="vertical">
+            <start>A</start>
+            <end>D</end>
+        </connection>
+        <connection orientation="vertical">
+            <start>F</start>
+            <end>D</end>
+        </connection>
+        <connection>
+            <start>A</start>
+            <end>CO2</end>
+        </connection>
+        <connection>
+            <start>F</start>
+            <end>CO2</end>
+        </connection>
+        <rough_valve>G
+            <translation>-1.5,16.7</translation>
+        </rough_valve>
+        <connection orientation="vertical">
+            <start>G</start>
+            <end>CO2</end>
+        </connection>
+    </laser>
+    
+    
+    
+    
+</root>

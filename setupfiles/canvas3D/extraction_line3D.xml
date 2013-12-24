@@ -1,0 +1,135 @@
+<root>
+    <view show_origin="false" show_grid="false"></view>
+    <extraction_line>
+        <section translate="0,0,0" length="10">bone
+            <valve translate="6,0,-3">B
+                <shaft orientation="backward"></shaft>
+                <shaft orientation="down"></shaft>
+            </valve>
+            <valve translate="6,0,3">C
+                <shaft orientation="forward"></shaft>
+                <shaft orientation="down"></shaft>
+            </valve>
+            <valve translate="3,3,0">D
+                <shaft orientation="backward"></shaft>
+                <shaft orientation="down"></shaft>
+                
+            </valve>
+            <valve translate="9,3,0">H
+                <shaft orientation="down"></shaft>
+                <shaft orientation="left"></shaft>
+            </valve>
+    
+            <valve translate="0,3,0">E
+                <shaft orientation="down"></shaft>
+                <shaft orientation="right"></shaft>
+            </valve>
+            
+            <valve translate="13,3,7">V
+                <shaft orientation="forward" length="10"></shaft>
+                <shaft orientation="down"></shaft>
+            </valve>
+            <valve translate="9,0,-3">J
+                <shaft orientation="backward"></shaft>
+                <shaft orientation="down"></shaft>
+            </valve>
+            <valve translate="6,3,0">N
+                <shaft orientation="backward"></shaft>
+                <shaft orientation="down"></shaft>
+                
+            </valve>
+            <bellows translate="0,-2.5,0" parent="C">B1</bellows>
+            
+        </section>
+        <section translate="-9,0,0" length="5">minibone
+            <valve translate="4,3,0">I
+                <shaft orientation="down"></shaft>
+                <shaft orientation="left"></shaft>
+            </valve>
+            <valve translate="0,0,3">Q
+                <shaft orientation="forward"></shaft>
+                <shaft orientation="up"></shaft>
+            </valve>
+            <valve translate="4,0,-3">P
+                <shaft orientation="backward"></shaft>
+                <shaft orientation="down"></shaft>
+            </valve>
+            
+            <valve klass="PipetteValve" translate="0,-3,0" label_offset="1,3">W</valve>
+            <valve klass="PipetteValve" translate="4,-3,0" label_offset="1,3">Y</valve>
+            <valve klass="PipetteValve" translate="0,-6,0" label_offset="1,3">X</valve>
+            <valve klass="PipetteValve" translate="4,-6,0" label_offset="1,3">Z</valve>
+            
+            <pipette translate="0,-3.5,0" radius="0.3" >1</pipette>
+            <pipette translate="4,-3.5,0" radius="0.3" >2</pipette>
+            <bellows translate="0,-0.5,0" radius="0.3">PipetteB1</bellows>
+            <bellows translate="4,-0.5,0" radius="0.3">PipetteB2</bellows>
+        </section>
+        <section translate="-16,0,0" length="1">micro
+            <!--<valve translate="0,0,-3">O-->
+            <!--    <shaft orientation="backward"></shaft>-->
+            <!--    <shaft orientation="down"></shaft>-->
+            <!--</valve>-->
+            <valve translate="0,3,0">L
+                <shaft orientation="down"></shaft>
+                <shaft orientation="left"></shaft>
+            </valve>
+            <valve translate="3,0,0">K
+                <shaft orientation="backward"></shaft>
+                <shaft orientation="right"></shaft>
+            </valve>
+            
+            <valve translate="0,0,3">T
+                <shaft orientation="forward"></shaft>
+                <shaft orientation="down"></shaft>
+            </valve>
+            <valve translate="0,0,-3">M
+                <shaft orientation="backward"></shaft>
+                <shaft orientation="down"></shaft>
+            </valve>
+            
+            <valve translate="-3,0,0">S
+                <shaft orientation="forward">
+                    <rotation>45,1,0,0</rotation>
+                </shaft>
+                <shaft orientation="left"></shaft>
+                
+            </valve>
+            <valve translate="-3,3.12,-3.12">R
+                <shaft orientation="forward">
+                    <rotation>-135,1,0,0</rotation>
+                    
+                </shaft>
+                <shaft orientation="right"></shaft>
+            </valve>
+            <valve translate="-7,3,-10.12">O
+                <shaft orientation="backward" length="10"></shaft>
+                <shaft orientation="down"></shaft>
+            </valve>
+            <valve translate="0,-3,0">U
+                <shaft orientation="forward"></shaft>
+                <shaft orientation="up"></shaft>
+            </valve>
+                
+            
+        </section>
+        <swc translate="0,-5,0" parent="B1">Aswc</swc>
+        <turbo translate="0,-3.5,0" parent="Aswc">Analytical</turbo>
+        
+        <elbow translate="0,1.5,-1.5" parent="Aswc">E1
+            <rotation>180,0,1,0</rotation>
+            <rotation>90,1,0,0</rotation>
+        </elbow>
+        <flex translate="1.5,2,0" parent="E1">F1
+            <rotation>90,0,0,1</rotation>
+            <point>0,0,0</point>
+            <point>0,-1.5,0</point>
+            <point>2.5,-9.5,-2.0</point>
+            <point>2.5,-9.5,-3.5</point>
+        </flex>
+    
+        <spectrometer inlet="H" translate="4,0,0">Obama</spectrometer>
+        <spectrometer inlet="Q" translate="0,6.5,0" klass="Quadrupole">Obama</spectrometer>
+        <spectrometer inlet="S" translate="-4,0,0">Jan</spectrometer>
+    </extraction_line>
+</root>

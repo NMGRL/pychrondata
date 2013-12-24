@@ -1,0 +1,11 @@
+
+username: a
+date: 2013-05-31 16:20:06.521149
+mass_spectrometer: Obama
+delay_before_analyses: 5
+delay_between_analyses: 30
+extract_device: Fusions CO2
+tray:  
+#================================================================================
+labnumber	position	e_value	e_units	duration	cleanup	pattern	e_group	extraction	measurement	post_eq	post_meas	dis_btw_pos	weight	comment	overlap	autocenter
+61313								co2	unknown		pump_ms					

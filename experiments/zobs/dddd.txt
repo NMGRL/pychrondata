@@ -1,0 +1,15 @@
+
+username: a
+date: 2013-05-18 17:38:31.644808
+mass_spectrometer: Jan
+delay_before_analyses: 5
+delay_between_analyses: 30
+extract_device: Fusions Diode
+tray:  
+#================================================================================
+labnumber	position	e_value	e_units	duration	cleanup	pattern	e_group	extraction	measurement	post_eq	post_meas	dis_btw_pos	weight	comment	overlap	autocenter
+pa-FD-J				100.0				pause								
+pa-FD-J				100.0				pause								
+pa-FD-J				100.0				pause								
+pa-FD-J				100.0				pause								
+pa-FD-J				100.0				pause								
