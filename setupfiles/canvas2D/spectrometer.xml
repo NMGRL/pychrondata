@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='ASCII'?>
+<root>
+    <spectrometer>
+        <transate>0,0</transate>
+        <color>1,0,0</color>
+    </spectrometer>
+    <beam>H2<theta>35</theta></beam>
+    <beam>H1<theta>30</theta></beam>
+    <beam>AX<theta>25</theta></beam>
+    <beam>L1<theta>20</theta></beam>
+    <beam>L2<theta>15</theta></beam>
+    <beam>CDD<theta>10</theta></beam>
+</root>
