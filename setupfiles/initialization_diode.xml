@@ -16,6 +16,9 @@
     </general>
     <hardware>
         <plugin enabled="true">FusionsDiode
+            <manager enabled="true">stage_manager
+          <device enabled="true">stage_controller</device>
+        </manager>
         <device enabled="true">temperature_monitor
           <required>false</required>
           <klass>DPi32TemperatureMonitor</klass>
