@@ -23,6 +23,9 @@
           <required>false</required>
           <klass>DPi32TemperatureMonitor</klass>
         </device>
+        <device enabled="true">pyrometer          
+        <required>false</required>        
+        </device>
       </plugin>
       <!--<plugin enabled="true">FusionsDiode-->
         <!--<processor enabled="false">/tmp/hardware-diode</processor>-->
@@ -42,10 +45,7 @@
           <!--<klass>WatlowEZZone</klass>-->
           <!--<required>false</required>-->
         <!--</device>-->
-        <!--<device enabled="true">pyrometer-->
-          <!--<required>false</required>-->
-        <!--</device>-->
-        <!--<device enabled="false">analog_power_meter-->
+                <!--<device enabled="false">analog_power_meter-->
           <!--<required>false</required>-->
         <!--</device>-->
         <!--<device enabled="true">chiller-->
