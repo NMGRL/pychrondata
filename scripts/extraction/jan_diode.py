@@ -30,7 +30,7 @@ def main():
         else:
             info('set heat to {}'.format(extract_value))
             enable()
-            extract(extract_value)
+            extract()
             sleep(duration)
             disable()
     if not analysis_type=='blank':

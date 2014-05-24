@@ -6,15 +6,15 @@
 # parameter definitions
 #===============================================================================
 #multicollect
-MULTICOLLECT_COUNTS      = 1003
+MULTICOLLECT_COUNTS      = 5
 MULTICOLLECT_ISOTOPE     = 'Ar40'
 MULTICOLLECT_DETECTOR    = 'H1'
 
 #baselines
-BASELINE_COUNTS          = 10
+BASELINE_COUNTS          = 3
 BASELINE_DETECTOR        = 'H1'
 BASELINE_MASS            = 39.5
-BASELINE_BEFORE          = True
+BASELINE_BEFORE          = False
 BASELINE_AFTER           = True
 
 #peak center
@@ -24,14 +24,14 @@ PEAK_CENTER_DETECTOR     = 'H1'
 PEAK_CENTER_ISOTOPE      = 'Ar40'
 
 #equilibration
-EQ_TIME                  = 3.0
+EQ_TIME                  = 2.0
 EQ_INLET                 = 'S'
 EQ_OUTLET                = 'O'
-EQ_DELAY                 = 3.0
+EQ_DELAY                 = 2.0
 
 #PEAK HOP
 USE_PEAK_HOP             = True
-NCYCLES                  = 4
+NCYCLES                  = 3
 
            
 """
@@ -58,21 +58,23 @@ NCYCLES                  = 4
     
 """
 
-HOPS=[('Ar40:H1:10, Ar39:AX:, Ar36:CDD',      5, 1),
+HOPS=[('Ar40:H1:10, Ar38:L1:, Ar36:CDD',      3, 5),
+       #('bs:39.5:H1', 3, 1),
       #('Ar40:L2,     Ar39:CDD',                   5, 1),
       #('Ar38:CDD',                                5, 1),
-      ('Ar39:CDD',                                5, 1),
-      ('Ar38:CDD',                                5, 1),
-      ('Ar37:CDD',                                5, 1),
+      ('Ar39:CDD',                                3, 5),
+      #('Ar38:CDD',                                3, 1),
+      ('Ar37:CDD',                                3, 5),
       ]
                
 #Detectors
 ACTIVE_DETECTORS         = ('H2','H1','AX','L1','L2','CDD')
-FITS                     = ('average','parabolic','parabolic','linear','linear','parabolic')
+#FITS                     = ('average','parabolic','parabolic','linear','linear','parabolic')
 FITS=('Ar41:(,10,average), (10,,cubic)',
       'Ar40:parabolic', 
       'Ar39AX:parabolic', 
       'Ar39CDD:parabolic',
+      'Ar39:parabolic',
       'Ar38:linear', 
       'Ar37:linear', 
       'Ar36:parabolic')
@@ -122,7 +124,8 @@ def main():
     
     sniff(EQ_TIME)
     
-    define_hops(HOPS)
+    if USE_PEAK_HOP:
+        define_hops(HOPS)
     #set default regression
     set_fits(*FITS)
     set_baseline_fits(*BASELINE_FITS)

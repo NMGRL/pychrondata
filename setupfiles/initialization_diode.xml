@@ -1,9 +1,9 @@
 <root>
   <globals>
-    <ignore_initialization_warnings>false</ignore_initialization_warnings>
-    <ignore_initialization_questions>false</ignore_initialization_questions>
-    <ignore_connection_warnings>false</ignore_connection_warnings>
-    <video_test>false</video_test>
+    <ignore_initialization_warnings>true</ignore_initialization_warnings>
+    <ignore_initialization_questions>true</ignore_initialization_questions>
+    <ignore_connection_warnings>true</ignore_connection_warnings>
+    <video_test>true</video_test>
   </globals>
   <plugins>
     <general>
@@ -26,6 +26,10 @@
         <device enabled="true">pyrometer          
         <required>false</required>        
         </device>
+        <device enabled="true">temperature_controller
+          <klass>WatlowEZZone</klass>          
+          <required>false</required>        
+          </device>
       </plugin>
       <!--<plugin enabled="true">FusionsDiode-->
         <!--<processor enabled="false">/tmp/hardware-diode</processor>-->

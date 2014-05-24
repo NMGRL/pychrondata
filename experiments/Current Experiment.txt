@@ -1,12 +1,17 @@
 
 username: a
-date: 2013-12-13 19:58:19.523684
+email: foo@bar.com
+date: 2014-04-29 12:23:01.158674
 mass_spectrometer: Jan
-delay_before_analyses: 1
-delay_between_analyses: 1
-extract_device: Fusions CO2
-tray: --- 
-load: 1401
+delay_before_analyses: 5
+delay_between_analyses: 30
+extract_device: 
+tray:  
+load: 
 #================================================================================
-labnumber	sample	position	e_value	e_units	duration	cleanup	beam_diameter	pattern	e_group	extraction	measurement	truncate	post_eq	post_meas	dis_btw_pos	weight	comment	overlap	autocenter
-22511	FC-2		10.0		1.0	10.0	34.0			pause	unknown_peak_hop	age>100.0, 100				1.0	foo		
+labnumber	sample	position	e_value	e_units	duration	cleanup	overlap	beam_diam	pattern	extraction	t_o	measurement	truncate	syn_extraction	post_meas	post_eq	s_opt	dis_btw_pos	weight	comment	autocenter
+19212			11		1	10				test_duration		unknown	Ar40>0,5								
+ba-01-O	blank_air									test_duration		unknown_peak_hop	Ar40>0,5								
+a-01-O	air									apis_x1		unknown_peak_hop	Ar40>0,5								
+#62913			0.28	watts	1.0	1.0				diode_degas		unknown									
+#19212			0.28	watts	1.0	1.0				diode_degas		unknown									

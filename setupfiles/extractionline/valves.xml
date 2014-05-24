@@ -125,6 +125,12 @@
         <description>Jan Ion Pump</description>
     </valve>
     
+    <switch>AA
+        <actuator>apis_controller</actuator>
+        <description>apis external pumping</description>
+        <parent>U</parent>
+    </switch>
+    
     <pipette>Cocktail
         <outer>W</outer>
         <inner>X</inner>

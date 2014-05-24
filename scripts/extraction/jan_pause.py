@@ -1,6 +1,8 @@
 '''
 eqtime: 5
 '''
+
+
 def main():
     
     info('pause script')
@@ -8,5 +10,6 @@ def main():
     sleep(duration/2.0)
     
     complete_interval()
+    
     gosub('jan:PrepareForAirShot')
-    gosub('jan:WaitForMiniboneAccess')
+    #gosub('jan:WaitForMiniboneAccess')

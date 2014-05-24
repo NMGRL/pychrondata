@@ -41,7 +41,11 @@
           <klass>ArgusController</klass>
         </device>
       </plugin>
-      <plugin enabled="false">ExtractionLine
+      <plugin enabled="false">ExternalPipette
+       <device enabled="true">apis_controller
+       </device>
+      </plugin>
+      <plugin enabled="true">ExtractionLine
         <mode>client</mode>
         <server enabled="false">systemserver</server>
         <processor enabled="false">/tmp/hardware-extractionline</processor>
@@ -49,7 +53,7 @@
           <device enabled="true">bone_micro_ion_controller
             <klass>MicroIonController</klass>
           </device>
-          <device enabled="false">microbone_micro_ion_controller
+          <device enabled="true">microbone_micro_ion_controller
             <klass>MicroIonController</klass>
           </device>
         </manager>
@@ -61,7 +65,7 @@
         <device enabled="true">laser_controller
         </device>
       </plugin>
-      
+
       <plugin enabled="false">FusionsCO2
         <mode>clientf</mode>
         <video_source>pvs://129.138.12.143:1084</video_source>

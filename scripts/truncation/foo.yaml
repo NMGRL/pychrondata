@@ -1,4 +1,15 @@
-attr: age
-comp: >
-criterion: 70
-start: 100
+- attr: age
+  comp: 10<age<100
+  start: 5
+  frequency: 1
+  abbreviated_count_ratio: 1.0
+- attr: Ar40
+  comp: 10<Ar40<10000
+  start: 3
+  frequency: 1
+  abbreviated_count_ratio: 1.0
+- attr: rad40_percent
+  comp: 10<x<100
+  start: 3
+  frequency: 1
+  abbreviated_count_ratio: 1.0

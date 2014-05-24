@@ -37,6 +37,7 @@ U:
  measurement: unknown
  post_equilibration: pump_unknown
  post_measurement: pump_ms
+ options: unknown
 Pa:
  extraction: pause
  measurement:
@@ -49,5 +50,8 @@ Dg:
  post_measurement:
  extract_value: 0.28
  extract_units: watts
- 
- 
+Ap:
+ extraction: apis1
+ measurement: air
+ post_equilibration: pump_air
+ post_measurement: pump_ms
