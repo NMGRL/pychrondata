@@ -1,0 +1,13 @@
+# to preserve order specify as '01:Value', etc. 
+# use zero-indexing
+# e.g
+#   ep1: '0:ExternalPipette1'
+#   ep2: '1:ExternalPipette2'
+
+ap1: '0:Apis1'
+ap2: '1:Apis2'
+ap3: '2:Apis3'
+ap4: '3:Apis4'
+bap1: '4:BlankApis1'
+
+

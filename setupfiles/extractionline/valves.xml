@@ -128,7 +128,9 @@
     <switch>AA
         <actuator>apis_controller</actuator>
         <description>apis external pumping</description>
-        <parent>U</parent>
+        <parent>U
+            <inverted>True</inverted>
+        </parent>
     </switch>
     
     <pipette>Cocktail

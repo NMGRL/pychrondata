@@ -1,0 +1,64 @@
+<root>
+  <globals>
+    <ignore_initialization_warnings>true</ignore_initialization_warnings>
+    <ignore_initialization_questions>true</ignore_initialization_questions>
+    <ignore_connection_warnings>true</ignore_connection_warnings>
+    <video_test>true</video_test>
+  </globals>
+  <plugins>
+    <general>
+      <plugin enabled="false">Processing</plugin>
+      <plugin enabled="false">MediaServer</plugin>
+      <plugin enabled="false">PyScript</plugin>
+      <plugin enabled="true">Video</plugin>
+      <plugin enabled="false">Database</plugin>
+      <plugin enabled="false">Entry</plugin>
+    </general>
+    <hardware>
+        <plugin enabled="true">FusionsUV
+            <manager enabled="true">stage_manager
+          <device enabled="false">stage_controller
+          <required>false</required>
+          </device>
+        </manager>
+      </plugin>
+      <!--<plugin enabled="true">FusionsDiode-->
+        <!--<processor enabled="false">/tmp/hardware-diode</processor>-->
+        <!--<manager enabled="true">stage_manager-->
+          <!--<device enabled="true">stage_controller</device>-->
+        <!--</manager>-->
+        <!--<manager enabled="true">control_module_manager-->
+          <!--<device enabled="true">control</device>-->
+        <!--</manager>-->
+        <!--<device enabled="false">laser_controller-->
+          <!--<required>false</required>-->
+        <!--</device>-->
+        <!--<device enabled="true">fiber_light-->
+          <!--<required>false</required>-->
+        <!--</device>-->
+        <!--<device enabled="true">temperature_controller-->
+          <!--<klass>WatlowEZZone</klass>-->
+          <!--<required>false</required>-->
+        <!--</device>-->
+                <!--<device enabled="false">analog_power_meter-->
+          <!--<required>false</required>-->
+        <!--</device>-->
+        <!--<device enabled="true">chiller-->
+          <!--<klass>RemoteThermoRack</klass>-->
+          <!--<required>false</required>-->
+        <!--</device>-->
+        <!--<device enabled="true">temperature_monitor-->
+          <!--<required>false</required>-->
+          <!--<klass>DPi32TemperatureMonitor</klass>-->
+        <!--</device>-->
+      <!--</plugin>-->
+
+    </hardware>
+    <data>
+    </data>
+    <social>
+      <plugin enabled="true">Email</plugin>
+      <plugin enabled="false">Twitter</plugin>
+    </social>
+  </plugins>
+</root>

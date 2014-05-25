@@ -33,17 +33,17 @@
       <plugin enabled="true">PyScript</plugin>
       <plugin enabled="true">Video</plugin>
       <plugin enabled="true">Database</plugin>
-      <plugin enabled="false">SystemMonitor</plugin>
+      <plugin enabled="true">SystemMonitor</plugin>
     </general>
     <hardware>
+      <plugin enabled="true">ExternalPipette
+       <device enabled="true">controller
+       </device>
+      </plugin>
       <plugin enabled="false">Spectrometer
         <device enabled="true">spectrometer_microcontroller
           <klass>ArgusController</klass>
         </device>
-      </plugin>
-      <plugin enabled="false">ExternalPipette
-       <device enabled="true">apis_controller
-       </device>
       </plugin>
       <plugin enabled="true">ExtractionLine
         <mode>client</mode>
@@ -65,14 +65,25 @@
         <device enabled="true">laser_controller
         </device>
       </plugin>
+      
 
+    </hardware>
+    <data>
+    </data>
+    <social>
+      <plugin enabled="true">Email</plugin>
+      <plugin enabled="false">Twitter</plugin>
+    </social>
+  </plugins>
+</root>
+<!--
       <plugin enabled="false">FusionsCO2
         <mode>clientf</mode>
         <video_source>pvs://129.138.12.143:1084</video_source>
         <video_source>pvs://localhost:1084</video_source>
         <manager enabled="true">stage_manager
           <device enabled="true">stage_controller
-<!--            <klass>RemoteNewportMotionController</klass> -->
+           <klass>RemoteNewportMotionController</klass>
           <required>false</required>
           </device>
         </manager>
@@ -116,12 +127,4 @@
           <klass>DPi32TemperatureMonitor</klass>
         </device>
       </plugin>
-    </hardware>
-    <data>
-    </data>
-    <social>
-      <plugin enabled="true">Email</plugin>
-      <plugin enabled="false">Twitter</plugin>
-    </social>
-  </plugins>
-</root>
+-->
