@@ -10,8 +10,13 @@ tray:
 load: 
 #================================================================================
 labnumber	sample	position	e_value	e_units	duration	cleanup	overlap	beam_diam	pattern	extraction	t_o	measurement	truncate	syn_extraction	post_meas	post_eq	s_opt	dis_btw_pos	weight	comment	autocenter
-19212			11		1	10				test_duration		unknown	Ar40>0,5								
-ba-01-O	blank_air									test_duration		unknown_peak_hop	Ar40>0,5								
-#a-01-O	air									apis_x1		unknown_peak_hop	Ar40>0,5								
-#62913			0.28	watts	1.0	1.0				diode_degas		unknown									
-#19212			0.28	watts	1.0	1.0				diode_degas		unknown									
+19212			11		1	10				test_duration		unknown									
+19212			11		1	100				test_duration			Ar40>0,5								
+19212			11		1	100				test_duration			Ar40>0,5								
+19212			11		1	10				test_duration			Ar40>0,5								
+19212			11		1	100				test_duration			Ar40>0,5								
+19212			11		1	10				test_duration			Ar40>0,5								
+19212			11		1	100				test_duration			Ar40>0,5								
+19212			11		1	100				test_duration			Ar40>0,5								
+19212			11		1	10				test_duration			Ar40>0,5								
+19212			11		1	100				test_duration			Ar40>0,5								

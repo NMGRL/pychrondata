@@ -3,18 +3,22 @@
   </globals>
   <plugins>
     <general>
-      <plugin enabled="false">Database</plugin>
+      <plugin enabled="true">Database</plugin>
+      <plugin enabled="false">Geo</plugin>
       <plugin enabled="false">Experiment</plugin>
-      <plugin enabled="false">Processing</plugin>
+      <plugin enabled="true">Processing</plugin>
       <plugin enabled="false">PyScript</plugin>
-      <plugin enabled="true">CanvasDesigner</plugin>
+      <plugin enabled="true">ArArConstants</plugin>
+      <plugin enabled="true">Entry</plugin>
+      <plugin enabled="false">SystemMonitor</plugin>
+
     </general>
     <hardware>
     </hardware>
     <data>
     </data>
     <social>
-      <plugin enabled="false">Email</plugin>
+      <plugin enabled="true">Email</plugin>
       <plugin enabled="false">Twitter</plugin>
     </social>
   </plugins>

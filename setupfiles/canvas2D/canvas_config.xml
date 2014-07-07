@@ -1,7 +1,7 @@
 <root>
-	<origin>4.5,0</origin>
-	<xview>-21,21</xview>
-	<yview>-15,15</yview>
+	<origin>0,0</origin>
+	<xview>-30,30</xview>
+	<yview>-30,30</yview>
 	<color tag="bgcolor">lightblue
 	</color>
 	<!--
@@ -16,11 +16,13 @@
 	</color>
 	<color tag="label">167, 201, 166
 	</color>
-<!--
+
 	<image>canvas_bg.png
-	<translation>-28,-25</translation>
-	<scale>2,2</scale>
+    	<translation>-30,-30</translation>
 	</image>
+<!--
+		<scale>2,2</scale>
+
 
 <image>RossLabsLogo.png
         <translation>10,16</translation>

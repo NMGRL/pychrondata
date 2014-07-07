@@ -10,8 +10,7 @@
   </globals>
   <plugins>
     <general>
-      <plugin enabled="true">Experiment
-        <mode>client</mode>
+      <plugin enabled="false">Experiment
         <mode>client</mode>
         <monitor enabled="false">automated_run_monitor
           <communications>
@@ -31,7 +30,7 @@
       <plugin enabled="true">Processing</plugin>
       <plugin enabled="true">MediaServer</plugin>
       <plugin enabled="true">PyScript</plugin>
-      <plugin enabled="true">Video</plugin>
+      <plugin enabled="false">Video</plugin>
       <plugin enabled="true">Database</plugin>
       <plugin enabled="false">SystemMonitor</plugin>
     </general>

@@ -1,29 +1,29 @@
 #!Measurement
 '''
+baseline:
+  after: true
+  before: false
+  counts: 30
+  detector: H1
+  mass: 39.59
 default_fits: nominal
+multicollect:
+  counts: 200
+  detector: H1
+  isotope: Ar40
+peakcenter:
+  after: false
+  before: false
+  detector: H1
+  isotope: Ar40
+equilibration:
+  inlet: R
+  outlet: S
+  inlet_delay: 3
 '''
-#counts
-MULTICOLLECT_COUNTS= 100
-
-#baselines
-BASELINE_COUNTS= 30
-BASELINE_DETECTOR= 'H1'
-BASELINE_MASS= 39.5
-BASELINE_BEFORE= False
-BASELINE_AFTER= True
-
-#peak center
-PEAK_CENTER_BEFORE= False
-PEAK_CENTER_AFTER= False
-PEAK_CENTER_DETECTOR= 'H1'
-PEAK_CENTER_ISOTOPE= 'Ar40'
 
 #equilibration
 EQ_TIME= 20.0
-INLET= 'R'
-OUTLET= 'S'
-DELAY= 3.0
-
 
 #PEAK HOP
 USE_PEAK_HOP= False
@@ -57,25 +57,25 @@ def main():
     #set the cdd operating voltage
     set_cdd_operating_voltage(100)
 
-    if PEAK_CENTER_BEFORE:
-        peak_center(detector=PEAK_CENTER_DETECTOR,isotope=PEAK_CENTER_ISOTOPE)
+    if mx.peakcenter.before:
+        peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope)
 
     #open a plot panel for this detectors
     activate_detectors(*ACTIVE_DETECTORS)
 
-    if BASELINE_BEFORE:
-        baselines(ncounts=BASELINE_COUNTS,mass=BASELINE_MASS, detector=BASELINE_DETECTOR)
+    if mx.baseline.before:
+        baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector)
 
 
     #position mass spectrometer
-    position_magnet('Ar40', detector='H1')
+    position_magnet(mx.multicollect.isotope, detector=mx.multicollect.detector)
 
     #gas is staged behind inlet
 
     #post equilibration script triggered after eqtime elapsed
     #equilibrate is non blocking
     #so use either a sniff of sleep as a placeholder until eq finished
-    equilibrate(eqtime=EQ_TIME, inlet=INLET, outlet=OUTLET)
+    equilibrate(eqtime=EQ_TIME, inlet=mx.equilibration.inlet, outlet=mx.equilibration.outlet)
 
     #equilibrate returns immediately after the inlet opens
     set_time_zero(7)
@@ -97,13 +97,13 @@ def main():
         peak_hop(hops=PEAK_HOPS)
     else:
         #multicollect on active detectors
-        multicollect(ncounts=MULTICOLLECT_COUNTS, integration_time=1)
+        multicollect(ncounts=mx.multicollect.counts, integration_time=1)
 
-    if BASELINE_AFTER:
-        baselines(ncounts=BASELINE_COUNTS,mass=BASELINE_MASS, detector=BASELINE_DETECTOR)
-    if PEAK_CENTER_AFTER:
-        peak_center(detector=PEAK_CENTER_DETECTOR,isotope=PEAK_CENTER_ISOTOPE)
+    if mx.baseline.after:
+        baselines(ncounts=mx.baseline.counts,mass=mx.baseline.mass, detector=mx.baseline.detector)
 
+    if mx.peakcenter.after:
+        peak_center(detector=mx.peakcenter.detector,isotope=mx.peakcenter.isotope)
     info('finished measure script')
 
 #========================EOF==============================================================

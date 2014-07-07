@@ -32,7 +32,7 @@ def main():
     #peak_center(detector='H1',isotope='Ar40')
 
     activate_detectors('H2','H1','AX','L1','L2','CDD')
-    regress('linear')
+    #regress('linear')
                     
     #peak_center(detector='H1',isotope='Ar40')
     
