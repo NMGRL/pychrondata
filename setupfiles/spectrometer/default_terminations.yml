@@ -1,0 +1,4 @@
+- check: Ar36<1.0e-10
+  start: 5
+- check: Ar40.std_dev <1.0e-10
+  start: 10

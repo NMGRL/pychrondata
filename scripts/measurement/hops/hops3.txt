@@ -1,0 +1,3 @@
+#hopstr e.i iso:det[:defl][,iso:det....], count, settle
+('Ar40:H1:10, Ar39:AX, Ar36:CDD', 5, 1)
+('Ar37:CDD', 5, 1)

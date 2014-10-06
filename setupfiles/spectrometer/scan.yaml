@@ -1,0 +1,5 @@
+#list of valves that will trigger a marker to be added to scan graph
+valves:
+    - A
+    - C
+    - U

@@ -1,0 +1,10 @@
+pattern: S
+static:
+ identifier: bu-FD-O
+ delay_between: 2
+ measurement: static_background
+ post_measurement: foo
+dynamic:
+ identifier: bg-02-J
+ measurement: dynamic_background
+ delay_between: 2
