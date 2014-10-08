@@ -1,0 +1,28 @@
+actions:
+- attr: Ar36
+  check: min(Ar36)>1.0
+  frequency: 5
+  mapper: ''
+  start: 19
+  window: 0
+post_run_terminations:
+- attr: Ar36
+  check: Ar36.bs_corrected<0.0003
+  frequency: 5
+  mapper: ''
+  start: 30
+  window: 0
+terminations:
+- attr: Ar40
+  check: Ar40>1
+  frequency: 5
+  mapper: ''
+  start: 30
+  window: 0
+truncations:
+- attr: Ar39
+  check: Ar39>1
+  frequency: 5
+  mapper: ''
+  start: 30
+  window: 0
