@@ -11,7 +11,7 @@ MULTICOLLECT_ISOTOPE     = 'Ar40'
 MULTICOLLECT_DETECTOR    = 'H1'
 
 #baselines
-BASELINE_COUNTS          = 3
+BASELINE_COUNTS          = 30
 BASELINE_DETECTOR        = 'H1'
 BASELINE_MASS            = 39.5
 BASELINE_BEFORE          = False
@@ -24,14 +24,14 @@ PEAK_CENTER_DETECTOR     = 'H1'
 PEAK_CENTER_ISOTOPE      = 'Ar40'
 
 #equilibration
-EQ_TIME                  = 2.0
+EQ_TIME                  = 5.0
 EQ_INLET                 = 'S'
 EQ_OUTLET                = 'O'
 EQ_DELAY                 = 2.0
 
 #PEAK HOP
 USE_PEAK_HOP             = True
-NCYCLES                  = 3
+NCYCLES                  = 2
 
            
 """
@@ -58,13 +58,13 @@ NCYCLES                  = 3
     
 """
 
-HOPS=[('Ar40:H1:10, Ar38:L1:, Ar36:CDD',      3, 5),
+HOPS=[('Ar40:H1:10, Ar38:L1, Ar37:L2, Ar36:CDD',      3, 1),
        #('bs:39.5:H1', 3, 1),
       #('Ar40:L2,     Ar39:CDD',                   5, 1),
       #('Ar38:CDD',                                5, 1),
-      ('Ar39:CDD',                                3, 5),
+      ('Ar39:CDD',                                3, 1),
       #('Ar38:CDD',                                3, 1),
-      ('Ar37:CDD',                                3, 5),
+     # ('Ar37:CDD',                                3, 5),
       ]
                
 #Detectors
@@ -144,7 +144,7 @@ def main():
     
     if BASELINE_AFTER:
         baselines(ncounts=BASELINE_COUNTS,mass=BASELINE_MASS, 
-                      detector=BASELINE_DETECTOR)
+                      detector=BASELINE_DETECTOR, settling_time=1)
     if PEAK_CENTER_AFTER:
         peak_center(detector=PEAK_CENTER_DETECTOR,isotope=PEAK_CENTER_ISOTOPE)
     
