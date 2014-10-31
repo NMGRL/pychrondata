@@ -1,8 +1,8 @@
 <root>
 	<origin>0,0</origin>
-	<xview>-30,30</xview>
-	<yview>-30,30</yview>
-	<color tag="bgcolor">lightblue
+	<xview>-25.5,25.5</xview>
+	<yview>-24,22</yview>
+	<color tag="bgcolor">white
 	</color>
 	<!--
 	<color tag="turbo">255,127,0
@@ -16,11 +16,11 @@
 	</color>
 	<color tag="label">167, 201, 166
 	</color>
-
+<!--
 	<image>canvas_bg.png
     	<translation>-30,-30</translation>
 	</image>
-<!--
+
 		<scale>2,2</scale>
 
 

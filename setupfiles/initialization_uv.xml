@@ -3,7 +3,7 @@
     <ignore_initialization_warnings>true</ignore_initialization_warnings>
     <ignore_initialization_questions>true</ignore_initialization_questions>
     <ignore_connection_warnings>true</ignore_connection_warnings>
-    <video_test>true</video_test>
+    <video_test>false</video_test>
   </globals>
   <plugins>
     <general>

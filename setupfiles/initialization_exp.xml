@@ -7,10 +7,11 @@
     <experiment_debug>true</experiment_debug>
     <experiment_savedb>true</experiment_savedb>
     <video_test>false</video_test>
+    <multi_user>true</multi_user>
   </globals>
   <plugins>
     <general>
-      <plugin enabled="false">Experiment
+      <plugin enabled="true">Experiment
         <mode>client</mode>
         <monitor enabled="false">automated_run_monitor
           <communications>
@@ -32,10 +33,12 @@
       <plugin enabled="true">PyScript</plugin>
       <plugin enabled="false">Video</plugin>
       <plugin enabled="true">Database</plugin>
+      <plugin enabled="true">Entry</plugin>
       <plugin enabled="false">SystemMonitor</plugin>
+      
     </general>
     <hardware>
-      <plugin enabled="false">Spectrometer
+      <plugin enabled="false">ArgusSpectrometer
         <device enabled="true">spectrometer_microcontroller
           <klass>ArgusController</klass>
         </device>
@@ -44,7 +47,7 @@
        <device enabled="true">apis_controller
        </device>
       </plugin>
-      <plugin enabled="true">ExtractionLine
+      <plugin enabled="false">ExtractionLine
         <mode>client</mode>
         <server enabled="false">systemserver</server>
         <processor enabled="false">/tmp/hardware-extractionline</processor>
@@ -66,7 +69,7 @@
       </plugin>
 
       <plugin enabled="false">FusionsCO2
-        <mode>clientf</mode>
+        <mode>client</mode>
         <video_source>pvs://129.138.12.143:1084</video_source>
         <video_source>pvs://localhost:1084</video_source>
         <manager enabled="true">stage_manager
