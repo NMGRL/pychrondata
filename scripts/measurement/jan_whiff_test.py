@@ -37,12 +37,6 @@ whiff:
       start: 9
 '''
 
-#equilibration
-EQ_TIME= 20.0
-
-#PEAK HOP
-USE_PEAK_HOP= False
-
 ACTIVE_DETECTORS=('H2','H1','AX','L1','L2', 'CDD')
 #FITS=('Ar41:linear','Ar40:linear', 'Ar39:parabolic','Ar38:parabolic','Ar37:parabolic','Ar36:parabolic')
 
