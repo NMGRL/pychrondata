@@ -1,0 +1,11 @@
+actions: []
+pre_run_terminations:
+- attr: CDD
+  check: CDD.inactive
+- attr: CDD
+  check: CDD.deflection==2000
+post_run_terminations:
+- attr: CDD
+  check: CDD.deflection==2000
+terminations: []
+truncations: []

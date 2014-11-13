@@ -1,5 +1,8 @@
 <root>
   <globals>
+   <recall_debug>False</recall_debug>
+   <multi_user>True</multi_user>
+   <use_login>false</use_login>
   </globals>
   <plugins>
     <general>
@@ -7,11 +10,12 @@
       <plugin enabled="false">Geo</plugin>
       <plugin enabled="false">Experiment</plugin>
       <plugin enabled="true">Processing</plugin>
-      <plugin enabled="false">PyScript</plugin>
+      <plugin enabled="true">PyScript</plugin>
       <plugin enabled="true">ArArConstants</plugin>
       <plugin enabled="true">Entry</plugin>
+      <plugin enabled="true">Loading</plugin>
       <plugin enabled="false">SystemMonitor</plugin>
-
+	
     </general>
     <hardware>
         <plugin enabled="false">Spectrometer

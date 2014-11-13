@@ -2,7 +2,7 @@
 <root>
     <!--gauges-->
     <gauge>Bone IG
-        <font>arial 10</font>
+        <font>modern 10</font>
 	    <translation>-15,-8</translation>
         <dimension>3.5,2</dimension>
     </gauge>
@@ -11,7 +11,7 @@
         <end offset="3,0">ATurbo</end>
     </connection>
     <gauge>Microbone IG
-        <font>arial 10</font>
+        <font>modern 10</font>
 	    <translation>10,-4.5</translation>
         <dimension>6,2</dimension>
     </gauge>
@@ -20,7 +20,7 @@
         <end offset="2.5,0">BTurbo</end>
     </connection>
     <gauge>Roughing IG
-        <font>arial 10</font>
+        <font>modern 10</font>
 	    <translation>-6.25,19</translation>
         <dimension>5.5,2</dimension>
     </gauge>
@@ -331,6 +331,16 @@
             <start>M</start>
             <end>Microbone</end>
         </connection>
+        
+        <laser>UV
+        <dimension>3,2</dimension>
+        <color>0,255,255,255</color>
+        <translation>10.0,12.0</translation>
+        <connection orientation="vertical">
+            <start>M</start>
+            <end>UV</end>
+        </connection>
+    </laser>
     </stage>
     <!--tanks-->
     <tank>Cocktail
@@ -347,10 +357,10 @@
         <!--<color>59, 163, 120</color>-->
         <translation>-1,-17.75</translation>
         <dimension>2,2</dimension>
-        <vlabel>Shots={:04n}
+        <!--<vlabel>Shots={:04n}
             <font>modern 10</font>
             <translation>-7,0</translation>
-        </vlabel>
+        </vlabel>-->
     </pipette>
     <connection orientation="vertical">
         <start>X</start>
@@ -369,10 +379,10 @@
 	    <color>0, 195, 255</color>
         <translation>3,-17.75</translation>
         <dimension>2,2</dimension>
-        <vlabel>Shots={:04n}
+        <!--<vlabel>Shots={:04n}
             <font>modern 10</font>
             <translation>4,0</translation>
-        </vlabel>
+        </vlabel>-->
     </pipette>
     <connection orientation="vertical">
         <start>Z</start>
@@ -395,9 +405,9 @@
     <label>GP50
         <translation>-9,9</translation>
     </label>
-    <label>NP10+UV
+    <!--<label>NP10+UV
         <translation>10,9</translation>
-    </label>
+    </label>-->
     <label>D50
         <translation>6,9</translation>
     </label>
@@ -408,6 +418,7 @@
         
 
     -->
+    <!--
     <legend>
         <origin>-26,-22</origin>
         <llabel use_border="false">Owned 
@@ -506,4 +517,5 @@
             <color>Quad</color>
         </rect>
     </legend>
+    -->
 </root>

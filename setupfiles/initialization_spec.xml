@@ -30,15 +30,21 @@
       </plugin>
       <plugin enabled="false">Processing</plugin>
       <plugin enabled="true">MediaServer</plugin>
+      <plugin enabled="true">ArArConstants</plugin>
       <plugin enabled="true">PyScript</plugin>
       <plugin enabled="true">Video</plugin>
     </general>
     <hardware>
-      <plugin enabled="true">Spectrometer
-        <device enabled="true">spectrometer_microcontroller
+      <plugin enabled="true">ArgusSpectrometer
+        <device enabled="false">spectrometer_microcontroller
+           <required>false</required>
           <klass>ArgusController</klass>
         </device>
       </plugin>
+      
+      <plugin enabled="false">MapSpectrometer
+      </plugin>
+      
       <plugin enabled="false">ExtractionLine
         <mode>cliednt</mode>
         <server enabled="false">systemserver</server>
