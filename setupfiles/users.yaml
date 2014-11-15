@@ -1,0 +1,9 @@
+- email: bar@nmt.edu
+  enabled: false
+  name: Jake
+- email: bat@nmt.edu
+  enabled: true
+  name: root
+- email: foo@nmt.edu
+  enabled: false
+  name: Zimmerer

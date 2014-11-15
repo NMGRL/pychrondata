@@ -1,0 +1,23 @@
+
+username: a
+date: 2014-02-10 23:28:45.453251
+mass_spectrometer: Jan
+delay_before_analyses: 1
+delay_between_analyses: 1
+extract_device: Fusions CO2
+tray: --- 
+load: 1401
+#================================================================================
+labnumber	sample	position	e_value	e_units	duration	cleanup	overlap	beam_diam	pattern	extraction	measurement	truncate	syn_extraction	post_meas	post_eq	s_opt	dis_btw_pos	weight	comment	autocenter
+19972-34	FC-2		500.0	temp	4.0	10.0				pause	unknown_peak_hop			pump_ms		unknown		1.0	foo	
+19972-34	FC-2		500.0	temp	30.0	30.0				pause	unknown_peak_hop			pump_ms		air_options		1.0	foo	
+#19211-03			500.0	temp	1.0	10.0				pause	unknown_peak_hop							1.0	foo	
+#19211-03			500.0	temp	1.0	10.0				pause	unknown_peak_hop							1.0	foo	
+#19211					1.0	10.0				pause	unknown_peak_hop							1.0	foo	
+#19211					1.0	10.0				pause	unknown_peak_hop							1.0	foo	
+#19211					1.0	10.0				pause	unknown_peak_hop							1.0	foo	
+#19211				percent	1.0	10.0	6767			pause	unknown_peak_hop							1.0	foo	
+#19211					1.0	10.0				pause	unknown_peak_hop							1.0	foo	
+#bu-FD-O					50.0	10.0				pause	unknown_peak_hop		test					1.0	foo	
+#bu-FD-O					50.0	10.0				pause	unknown_peak_hop		test					1.0	foo	
+#19211-03					1.0	10.0				pause	unknown_peak_hop							1.0	foo	

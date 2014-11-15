@@ -1,13 +1,15 @@
 '''
     equilibration_time: 15
     outlet_valve: V
+
+    asdfasdf: asdfadsaf
 '''
 EQ_TIME= 1
 INLET= 'R'
 OUTLET= 'S'
 DELAY= 3.0
 TIME_ZERO_OFFSET=0
-
+#asfdasdf
 def set_source_params():
     set_ysymmetry(100)
     set_zsymmetry(100)

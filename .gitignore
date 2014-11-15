@@ -3,3 +3,5 @@
 /logs
 *.idea
 */.git
+/experiments/backup
+*.pyc

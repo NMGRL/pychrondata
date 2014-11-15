@@ -1,0 +1,12 @@
+reference_detector: H1
+reference_isotope: Ar40
+detectors:  H2, H1, AX, L1, L2
+isotopes: Ar40, Ar39, Ar36
+extraction: auto_mftable
+deflections: 
+  H2: 0,100,200
+  H1: 0,100,200
+  AX: 0,100,200
+  L1: 0,100,200
+  L2: 0,100,200
+  CDD: 0,100,200

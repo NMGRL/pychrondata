@@ -1,0 +1,27 @@
+<root>
+  <globals>
+    <use_ipc>true</use_ipc>
+    <ignore_initialization_warnings>true</ignore_initialization_warnings>
+    <ignore_initialization_questions>false</ignore_initialization_questions>
+    <ignore_connection_warnings>true</ignore_connection_warnings>
+    <experiment_debug>true</experiment_debug>
+    <experiment_savedb>true</experiment_savedb>
+    <video_test>false</video_test>
+  </globals>
+  <plugins>
+    <general>
+        <plugin enable="true">ArArConstants</plugin>
+        <plugin enabled="true">Workspace</plugin>
+        <plugin enabled="true">Database</plugin>
+        <plugin enabled="true">Processing</plugin>
+    </general>
+    <hardware>
+    </hardware>
+    <data>
+    </data>
+    <social>
+      <plugin enabled="true">Email</plugin>
+      <plugin enabled="false">Twitter</plugin>
+    </social>
+  </plugins>
+</root>

@@ -1,0 +1,18 @@
+H2:
+  - deflections: 0,100
+  - dacs: 5.8, 6.0
+H1:
+  - deflections: 0,100
+  - dacs: 5.8, 6.0
+AX:
+  - deflections: 0,100
+  - dacs: 5.8, 6.0
+L1:
+  - deflections: 0,100
+  - dacs: 5.8, 6.0
+L2:
+  - deflections: 0,100
+  - dacs: 5.8, 6.0
+CDD:
+  - deflections: 0,100
+  - dacs: 5.8, 6.0

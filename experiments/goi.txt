@@ -1,0 +1,12 @@
+
+username: jake ross
+email: foo@bar.comjkjkjkj
+date: 2014-02-16 21:29:31.015377
+mass_spectrometer: Jan
+delay_before_analyses: 5
+delay_between_analyses: 30
+extract_device: 
+tray:  
+load: 
+#================================================================================
+labnumber	sample	position	e_value	e_units	duration	cleanup	overlap	beam_diam	pattern	extraction	measurement	truncate	syn_extraction	post_meas	post_eq	s_opt	dis_btw_pos	weight	comment	autocenter

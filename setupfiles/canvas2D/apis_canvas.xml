@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='ASCII'?>
+<root>
+
+   <valve>A
+    <translation>-10,0</translation>
+   </valve>
+   <connection orientation="vertical">
+        <start>A</start>
+        <end>B</end>
+    </connection>
+   <valve>B
+    <translation>-10,-5</translation>
+   </valve>
+   <pipette display_name="">Pipette_1
+	    <color>0, 195, 255</color>
+        <translation>-10, -8</translation>
+        <dimension>2,2</dimension>
+        <vlabel>Shots={:04n}
+            <font>modern 10</font>
+            <translation>-8,-4.5</translation>
+        </vlabel>
+   </pipette>
+   <connection orientation="vertical">
+        <start>B</start>
+        <end>Air1</end>
+    </connection>
+   <tank>Air1
+	   <color>0, 195, 255</color>
+        <translation>-11, -11</translation>
+        <dimension>4,2</dimension>
+    </tank>
+    
+   <valve>C
+    <translation>-5,0</translation>
+   </valve>
+   <connection orientation="vertical">
+        <start>C</start>
+        <end>D</end>
+    </connection>
+   <valve>D
+    <translation>-5,-5</translation>
+   </valve>
+   <pipette display_name="">Pipette_2
+	    <color>0, 195, 255</color>
+        <translation>-5, -8</translation>
+        <dimension>2,2</dimension>
+        <vlabel>Shots={:04n}
+            <font>modern 10</font>
+            <translation>-6.5,-4.5</translation>
+        </vlabel>
+   </pipette>
+   <connection orientation="vertical">
+        <start>D</start>
+        <end>Air2</end>
+    </connection>
+   <tank>Air2
+	   <color>0, 195, 255</color>
+        <translation>-6, -11</translation>
+        <dimension>4,2</dimension>
+    </tank>
+   
+   <valve>E
+    <translation>0,0</translation>
+   </valve>
+   <connection orientation="vertical">
+        <start>E</start>
+        <end>F</end>
+   </connection>
+   <valve>F
+    <translation>0,-5</translation>
+   </valve>
+   <pipette display_name="">Pipette_3
+	    <color>0, 195, 255</color>
+        <translation>0, -8</translation>
+        <dimension>2,2</dimension>
+        <vlabel>Shots={:04n}
+            <font>modern 10</font>
+            <translation>-5,-4.5</translation>
+        </vlabel>
+   </pipette>
+   <connection orientation="vertical">
+        <start>F</start>
+        <end>Air3</end>
+    </connection>
+   <tank>Air3
+	   <color>0, 195, 255</color>
+        <translation>-1, -11</translation>
+        <dimension>4,2</dimension>
+    </tank>
+
+</root>
+
+
+    
+<!-- 
+    Spec    <spectrometer>Spec
+      <volume>650</volume>
+        <color>85,110,180,255</color>
+        <translation>-24.0,0.0</translation>
+        <dimension>5,5</dimension>
+    </spectrometer>
+    <valve>V
+   	<translation>-23.0,-3.0</translation>
+    </valve>
+    <connection orientation="vertical">
+        <start>V</start>
+        <end>Spec</end>
+    </connection>
+    <ionpump display_name="Ion Pump">SpecIonPump
+	   <color>234, 165, 57</color>
+        <translation>-23,-7</translation>
+        <dimension>6,3</dimension>
+    </ionpump>
+    <connection orientation="vertical">
+        <start>V</start>
+        <end>SpecIonPump</end>
+    </connection>
+    
+    Section1    <stage>Section1
+      <translation>-14.0,1.0</translation>
+        <dimension>8,3</dimension>
+        <valve>H
+        <translation>-17.5,1.5</translation>
+        </valve>
+        <connection orientation="horizontal">
+            <start>H</start>
+            <end>Spec</end>
+        </connection>
+       
+        <valve>C
+	   <translation>-11.0,-3.0</translation>
+        </valve>
+        <connection orientation="vertical">
+            <start>C</start>
+            <end>Section1</end>
+        </connection>
+        <connection orientation="vertical">
+            <start>C</start>
+            <end>Turbo</end>
+        </connection>
+        <turbo>Turbo
+            <color>255,127,0</color>
+            <translation>-13,-12</translation>
+            <dimension>5,3</dimension>
+        </turbo>
+        
+        <connection orientation="horizontal">
+            <start>H</start>
+            <end>Section1</end>
+        </connection>
+        <valve>E
+        <translation>-1.0,1.0</translation>
+        </valve>
+        <connection orientation="horizontal">
+            <start>E</start>
+            <end>Section1</end>
+        </connection>
+        <connection orientation="horizontal">
+            <start>E</start>
+            <end>Section2</end>
+        </connection>
+        <volume>150</volume>
+    </stage>
+    microSection1    <stage>Section2
+        <translation>6.0,1.0</translation>
+        <dimension>6,3</dimension>
+        
+        <laser>Laser
+        <color>85,110,150,255</color>
+            <translation>9.0,10.0</translation>
+            <dimension>6,3</dimension>
+        </laser>
+        
+        <connection orientation='vertical'>
+            <start>M</start>
+            <end>Laser</end>
+        </connection>
+        <valve>M
+        <translation>10.0,6.0</translation>
+        </valve>
+        <connection orientation="vertical">
+            <start>M</start>
+            <end>Section2</end>
+        </connection>
+    </stage>
+ -->

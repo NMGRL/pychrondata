@@ -1,0 +1,21 @@
+<root>
+  <globals>
+  </globals>
+  <plugins>
+    <general>
+        <plugin enable="true">ArArConstants</plugin>
+        <plugin enabled="False">Workspace</plugin>
+        <plugin enabled="true">Database</plugin>
+        <plugin enabled="False">Processing</plugin>
+        <plugin enabled="true">Loading</plugin>
+    </general>
+    <hardware>
+    </hardware>
+    <data>
+    </data>
+    <social>
+      <plugin enabled="true">Email</plugin>
+      <plugin enabled="false">Twitter</plugin>
+    </social>
+  </plugins>
+</root>

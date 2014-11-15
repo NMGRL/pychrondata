@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='ASCII'?>
+<root>
+    
+    <!--Spec -->
+    <spectrometer>Spec
+      <volume>650</volume>
+        <color>85,110,180,255</color>
+        <translation>-24.0,0.0</translation>
+        <dimension>5,5</dimension>
+    </spectrometer>
+    <valve>V
+   	<translation>-23.0,-3.0</translation>
+    </valve>
+    <connection orientation="vertical">
+        <start>V</start>
+        <end>Spec</end>
+    </connection>
+    <ionpump display_name="Ion Pump">SpecIonPump
+	   <color>234, 165, 57</color>
+        <translation>-23,-7</translation>
+        <dimension>6,3</dimension>
+    </ionpump>
+    <connection orientation="vertical">
+        <start>V</start>
+        <end>SpecIonPump</end>
+    </connection>
+    
+    <!--Section1 -->
+    <stage>Section1
+      <translation>-14.0,1.0</translation>
+        <dimension>8,3</dimension>
+        <valve>H
+        <translation>-17.5,1.5</translation>
+        </valve>
+        <connection orientation="horizontal">
+            <start>H</start>
+            <end>Spec</end>
+        </connection>
+       
+        <valve>C
+	   <translation>-11.0,-3.0</translation>
+        </valve>
+        <connection orientation="vertical">
+            <start>C</start>
+            <end>Section1</end>
+        </connection>
+        <connection orientation="vertical">
+            <start>C</start>
+            <end>Turbo</end>
+        </connection>
+        <turbo>Turbo
+            <color>255,127,0</color>
+            <translation>-13,-12</translation>
+            <dimension>5,3</dimension>
+        </turbo>
+        
+        <connection orientation="horizontal">
+            <start>H</start>
+            <end>Section1</end>
+        </connection>
+        <valve>E
+        <translation>-1.0,1.0</translation>
+        </valve>
+        <connection orientation="horizontal">
+            <start>E</start>
+            <end>Section1</end>
+        </connection>
+        <connection orientation="horizontal">
+            <start>E</start>
+            <end>Section2</end>
+        </connection>
+        <volume>150</volume>
+    </stage>
+    <!--microSection1-->
+    <stage>Section2
+        <translation>6.0,1.0</translation>
+        <dimension>6,3</dimension>
+        
+        <laser>Laser
+        <color>85,110,150,255</color>
+            <translation>9.0,10.0</translation>
+            <dimension>6,3</dimension>
+        </laser>
+        
+        <connection orientation='vertical'>
+            <start>M</start>
+            <end>Laser</end>
+        </connection>
+        <valve>M
+        <translation>10.0,6.0</translation>
+        </valve>
+        <connection orientation="vertical">
+            <start>M</start>
+            <end>Section2</end>
+        </connection>
+    </stage>
+   
+
+</root>

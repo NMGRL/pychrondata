@@ -1,0 +1,42 @@
+actions:
+- attr: clk
+  frequency: 10
+  mapper: ''
+  start: 0
+  teststr: between(clk,12.0,34.0)
+  window: 0
+- attr: age
+  frequency: 10
+  mapper: ''
+  start: 0
+  teststr: age>172.0
+  window: 0
+cancelations:
+- attr: ''
+  frequency: 10
+  mapper: ''
+  start: 0
+  teststr: ''
+  window: 0
+post_run_terminations:
+- attr: ''
+  mapper: ''
+  teststr: ''
+  window: 0
+pre_run_terminations:
+- attr: ''
+  teststr: ''
+terminations:
+- attr: ''
+  frequency: 10
+  mapper: ''
+  start: 0
+  teststr: ''
+  window: 0
+truncations:
+- attr: ''
+  frequency: 10
+  mapper: ''
+  start: 0
+  teststr: ''
+  window: 0

@@ -1,0 +1,36 @@
+actions:
+- attr: Ar36
+  check: Ar36
+  frequency: 10
+  mapper: ''
+  start: 0
+  window: 0
+cancelations:
+- attr: ''
+  check: ''
+  frequency: 10
+  mapper: ''
+  start: 0
+  window: 0
+post_run_terminations:
+- attr: ''
+  check: ''
+  mapper: ''
+  window: 0
+pre_run_terminations:
+- attr: ''
+  check: ''
+terminations:
+- attr: ''
+  check: ''
+  frequency: 10
+  mapper: ''
+  start: 0
+  window: 0
+truncations:
+- attr: ''
+  check: ''
+  frequency: 10
+  mapper: ''
+  start: 0
+  window: 0

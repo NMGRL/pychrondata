@@ -3,12 +3,18 @@
 baseline:
   after: true
   before: false
-  counts: 30
+  counts: 3
   detector: H1
   mass: 39.59
-default_fits: nominal
+default_fits: nominal_fasad
+equilibration:
+  eqtime: 5
+  inlet: R
+  inlet_delay: 3
+  outlet: S
+  use_extraction_eqtime: false
 multicollect:
-  counts: 200
+  counts: 5
   detector: H1
   isotope: Ar40
 peakcenter:
@@ -16,14 +22,14 @@ peakcenter:
   before: false
   detector: H1
   isotope: Ar40
-equilibration:
-  inlet: R
-  outlet: S
-  inlet_delay: 3
-'''
+peakhop:
+  hops_name: hop
+  use_peak_hop: true
 
+'''
+#this is commit three
 #equilibration
-EQ_TIME= 20.0
+#EQ_TIME= 5.0
 
 #PEAK HOP
 USE_PEAK_HOP= False
@@ -75,12 +81,17 @@ def main():
     #post equilibration script triggered after eqtime elapsed
     #equilibrate is non blocking
     #so use either a sniff of sleep as a placeholder until eq finished
-    equilibrate(eqtime=EQ_TIME, inlet=mx.equilibration.inlet, outlet=mx.equilibration.outlet)
+    if mx.equilibration.use_extraction_eqtime:
+        e = ex.eqtime
+    else:
+        e = mx.equilibration.eqtime
+
+    equilibrate(eqtime=e, inlet=mx.equilibration.inlet, outlet=mx.equilibration.outlet)
 
     #equilibrate returns immediately after the inlet opens
-    set_time_zero(7)
+    set_time_zero()
 
-    sniff(EQ_TIME)
+    sniff(e)
     #set default regression
     set_fits()
     set_baseline_fits()
