@@ -8,6 +8,8 @@
     <experiment_savedb>true</experiment_savedb>
     <video_test>false</video_test>
     <multi_user>true</multi_user>
+    <use_login>false</use_login>
+    <communication_simulation>true</communication_simulation>
   </globals>
   <plugins>
     <general>
@@ -35,10 +37,11 @@
       <plugin enabled="true">Database</plugin>
       <plugin enabled="true">Entry</plugin>
       <plugin enabled="false">SystemMonitor</plugin>
-      
+      <plugin enabled="true">ArArConstants</plugin>
+
     </general>
     <hardware>
-      <plugin enabled="false">ArgusSpectrometer
+      <plugin enabled="true">ArgusSpectrometer
         <device enabled="true">spectrometer_microcontroller
           <klass>ArgusController</klass>
         </device>
@@ -47,7 +50,7 @@
        <device enabled="true">apis_controller
        </device>
       </plugin>
-      <plugin enabled="false">ExtractionLine
+      <plugin enabled="true">ExtractionLine
         <mode>client</mode>
         <server enabled="false">systemserver</server>
         <processor enabled="false">/tmp/hardware-extractionline</processor>
@@ -122,7 +125,7 @@
     <data>
     </data>
     <social>
-      <plugin enabled="true">Email</plugin>
+      <plugin enabled="false">Email</plugin>
       <plugin enabled="false">Twitter</plugin>
     </social>
   </plugins>

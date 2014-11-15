@@ -1,7 +1,7 @@
 <root>
   <globals>
    <recall_debug>False</recall_debug>
-   <multi_user>True</multi_user>
+   <multi_user>false</multi_user>
    <use_login>false</use_login>
   </globals>
   <plugins>
@@ -15,7 +15,7 @@
       <plugin enabled="true">Entry</plugin>
       <plugin enabled="true">Loading</plugin>
       <plugin enabled="false">SystemMonitor</plugin>
-	
+	  <plugin enabled="true">LabBook</plugin>
     </general>
     <hardware>
         <plugin enabled="false">Spectrometer
@@ -27,7 +27,7 @@
     <data>
     </data>
     <social>
-      <plugin enabled="true">Email</plugin>
+      <plugin enabled="false">Email</plugin>
       <plugin enabled="false">Twitter</plugin>
     </social>
   </plugins>
