@@ -1,0 +1,11 @@
+- plugin: Database
+  tests:
+      - test_pychron
+      - test_massspec
+- plugin: LabBook
+  tests:
+- plugin: ArArConstants
+  tests:
+- plugin: ArgusSpectrometer
+  tests:
+      - test_communication
