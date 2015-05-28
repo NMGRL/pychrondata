@@ -5,3 +5,4 @@
 */.git
 /experiments/backup
 *.pyc
+.DS_Store
