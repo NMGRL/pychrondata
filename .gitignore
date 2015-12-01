@@ -6,3 +6,4 @@
 /experiments/backup
 *.pyc
 .DS_Store
+.project
