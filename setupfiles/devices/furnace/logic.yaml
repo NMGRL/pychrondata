@@ -1,7 +1,7 @@
 switches:
-  TS: A
-  G: B
-  BS: C
+  A: TS
+  B: BS
+  C: G
 rules:
   TS_O:
     - funnel_up
@@ -20,6 +20,10 @@ rules:
     - no_motion
     - no_dump
   BS_O:
+    - funnel_up
+    - no_motion
+    - no_dump
+  BS_C:
     - funnel_up
     - no_motion
     - no_dump
