@@ -1,0 +1,18 @@
+devices:
+    - controller
+    #- switch_controller
+
+switch_mapping:
+    A: 1
+    B: 2
+    C: 3
+
+funnel:
+    down: -55296
+    up: 0
+    tolerance: 10
+
+magnets:
+    - 4
+    - 5
+    - 6
