@@ -7,6 +7,11 @@ switch_mapping:
     B: 2
     C: 3
 
+switch_indicator_mapping:
+    A: 11
+    B: 12
+    C: 13
+    
 funnel:
     down: -55296
     up: 0
