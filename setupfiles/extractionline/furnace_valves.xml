@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='ASCII'?>
+<root>
+  <switch>A
+     <address>0</address>
+     <description>UpperShutter</description>
+<!--      <interlock>D</interlock> -->
+  </switch>
+  <switch>B
+     <address>1</address>
+     <description>LowerShutter</description>
+<!--      <interlock>D</interlock> -->
+  </switch>
+  <switch>C
+     <address>2</address>
+     <description>GateValve</description>
+<!--      <interlock>D</interlock> -->
+  </switch>
+<!-- 
+  <switch>D
+     <address>3</address>
+     <description>FunnelValve</description>
+     <positive_interlock>A</positive_interlock>
+     <positive_interlock>B</positive_interlock>
+     <positive_interlock>C</positive_interlock>
+  </switch>
+ -->
+</root>
